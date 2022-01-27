@@ -1,0 +1,517 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "disabled": true,
+      "settings": {
+        "title_enable": true,
+        "display_type": "all",
+        "sort": "alphabetical",
+        "grid": "4"
+      }
+    },
+    "16426099801f437150": {
+      "type": "featured-collections",
+      "blocks": {
+        "16426099804fec24dd-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-the-acacia-strain",
+            "title": "The Acacia Strain",
+            "focal_point": "center center"
+          }
+        },
+        "16426099804fec24dd-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-afi",
+            "title": "AFI",
+            "focal_point": "center center"
+          }
+        },
+        "16426099804fec24dd-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "american-nightmare",
+            "title": "AMERICAN NIGHTMARE",
+            "focal_point": "center center"
+          }
+        },
+        "16426099804fec24dd-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-angels-airwaves",
+            "title": "ANGELS & AIRWAVES",
+            "focal_point": "bottom center"
+          }
+        },
+        "a0e56029-1db0-47bd-8b98-4cdac8a78d18": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-at-the-drive-in-1",
+            "title": "AT THE DRIVE IN",
+            "focal_point": "center center"
+          }
+        },
+        "f7870956-e3bf-4f89-8fe3-f852638632fb": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-black-peaks",
+            "title": "BLACK PEAKS",
+            "focal_point": "center center"
+          }
+        },
+        "7f67a147-4d71-44ed-870e-564e3e0f5293": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-blessthefall",
+            "title": "BLESSTHEFALL",
+            "focal_point": "center center"
+          }
+        },
+        "fe0d79ab-0b34-447e-80c1-9c476cfb1686": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-bloodbather",
+            "title": "BLOODBATHER",
+            "focal_point": "center center"
+          }
+        },
+        "609e58e7-d2df-41e6-8c2e-f9c8dcd71742": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-chapel",
+            "title": "CHAPEL",
+            "focal_point": "center center"
+          }
+        },
+        "c3ab2c84-bd75-40fa-a140-2b244f1355c7": {
+          "type": "collection",
+          "settings": {
+            "collection": "circa-survive",
+            "title": "CIRCA SURVIVE",
+            "focal_point": "center center"
+          }
+        },
+        "20e2f163-4cfd-4398-84e0-8c0824c397a5": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-clint-lowery",
+            "title": "CLINT LOWERY",
+            "focal_point": "center center"
+          }
+        },
+        "611f6758-39f8-4baf-8732-1ea6e150822f": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-cold-collective",
+            "title": "COLD COLLECTIVE",
+            "focal_point": "center center"
+          }
+        },
+        "52708272-1427-4c3d-ac0f-dcf2bb877bca": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "covey",
+            "title": "COVEY",
+            "focal_point": "center center"
+          }
+        },
+        "90d9612b-0c9f-4b69-a721-1ba488e0e9d8": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "artist-crown-the-empire",
+            "title": "CROWN THE EMPIRE",
+            "focal_point": "center center"
+          }
+        },
+        "3a4ececa-f24f-49be-9990-e747a17d106a": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "artist-dance-gavin-dance",
+            "title": "DANCE GAVIN DANCE",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16426099804fec24dd-0",
+        "16426099804fec24dd-1",
+        "16426099804fec24dd-2",
+        "16426099804fec24dd-3",
+        "a0e56029-1db0-47bd-8b98-4cdac8a78d18",
+        "f7870956-e3bf-4f89-8fe3-f852638632fb",
+        "7f67a147-4d71-44ed-870e-564e3e0f5293",
+        "fe0d79ab-0b34-447e-80c1-9c476cfb1686",
+        "609e58e7-d2df-41e6-8c2e-f9c8dcd71742",
+        "c3ab2c84-bd75-40fa-a140-2b244f1355c7",
+        "20e2f163-4cfd-4398-84e0-8c0824c397a5",
+        "611f6758-39f8-4baf-8732-1ea6e150822f",
+        "52708272-1427-4c3d-ac0f-dcf2bb877bca",
+        "90d9612b-0c9f-4b69-a721-1ba488e0e9d8",
+        "3a4ececa-f24f-49be-9990-e747a17d106a"
+      ],
+      "settings": {
+        "title": "active roster",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    },
+    "1642613127776c7a30": {
+      "type": "featured-collections",
+      "blocks": {
+        "1642613127b8861eb9-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "covey",
+            "title": "COVEY",
+            "focal_point": "center center"
+          }
+        },
+        "1642613127b8861eb9-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-crown-the-empire",
+            "title": "CROWN THE EMPIRE",
+            "focal_point": "center center"
+          }
+        },
+        "1642613127b8861eb9-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-dance-gavin-dance",
+            "title": "DANCE GAVIN DANCE",
+            "focal_point": "center center"
+          }
+        },
+        "1642613127b8861eb9-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-dave-hause",
+            "title": "DAVE HAUSE",
+            "focal_point": "20% 50%"
+          }
+        },
+        "9ecb12bc-04c1-4f7b-bb1d-79c8ca1f887e": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-derek-sanders-1",
+            "title": "DEREK SANDERS",
+            "focal_point": "center center"
+          }
+        },
+        "f1d928d9-c971-4a0f-946f-e9a77b7d5cd8": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-the-distillers",
+            "title": "THE DISTILLERS",
+            "focal_point": "center center"
+          }
+        },
+        "96b29860-ffae-49c4-8fc3-14f354a7a6f4": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-early-november",
+            "title": "THE EARLY NOVEMBER",
+            "focal_point": "center center"
+          }
+        },
+        "efa9376a-198c-4863-b69b-6f9d8cd06d53": {
+          "type": "collection",
+          "settings": {
+            "collection": "eidola",
+            "title": "EIDOLA",
+            "focal_point": "center center"
+          }
+        },
+        "2f1f17bc-694e-4237-a945-8231665746fb": {
+          "type": "collection",
+          "settings": {
+            "collection": "flogging-molly",
+            "title": "FLOGGING MOLLY",
+            "focal_point": "center center"
+          }
+        },
+        "cfb0d8c0-d58e-480a-956a-66ea9ff6932a": {
+          "type": "collection",
+          "settings": {
+            "collection": "galactic-empire",
+            "title": "GALACTIC EMPIRE",
+            "focal_point": "center center"
+          }
+        },
+        "cb690109-813c-489e-984d-d648904e6f16": {
+          "type": "collection",
+          "settings": {
+            "collection": "gone-is-gone",
+            "title": "GONE IS GONE",
+            "focal_point": "center center"
+          }
+        },
+        "b8a056b0-00da-4e65-8326-043a2867b08f": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-jetty-bones",
+            "title": "JETTY BONES",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1642613127b8861eb9-0",
+        "1642613127b8861eb9-1",
+        "1642613127b8861eb9-2",
+        "1642613127b8861eb9-3",
+        "9ecb12bc-04c1-4f7b-bb1d-79c8ca1f887e",
+        "f1d928d9-c971-4a0f-946f-e9a77b7d5cd8",
+        "96b29860-ffae-49c4-8fc3-14f354a7a6f4",
+        "efa9376a-198c-4863-b69b-6f9d8cd06d53",
+        "2f1f17bc-694e-4237-a945-8231665746fb",
+        "cfb0d8c0-d58e-480a-956a-66ea9ff6932a",
+        "cb690109-813c-489e-984d-d648904e6f16",
+        "b8a056b0-00da-4e65-8326-043a2867b08f"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    },
+    "16426143527b3361a6": {
+      "type": "featured-collections",
+      "blocks": {
+        "164261435210b2ed18-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-knuckle-puck",
+            "title": "KNUCKLE PUCK",
+            "focal_point": "center center"
+          }
+        },
+        "164261435210b2ed18-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-kublai-khan",
+            "title": "KUBLAI KHAN",
+            "focal_point": "center center"
+          }
+        },
+        "164261435210b2ed18-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-kvelertak",
+            "title": "KVELERTAK",
+            "focal_point": "center center"
+          }
+        },
+        "164261435210b2ed18-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-le-butcherettes",
+            "title": "LE BUTCHERETTES",
+            "focal_point": "center center"
+          }
+        },
+        "7c19fafb-c4c7-40d8-b825-107c31880066": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-make-them-suffer",
+            "title": "MAKE THEM SUFFER",
+            "focal_point": "center center"
+          }
+        },
+        "1112926c-21e7-4cc2-bbeb-e1db759c5a7d": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-mark-morton",
+            "title": "MARK MORTON",
+            "focal_point": "center center"
+          }
+        },
+        "5bf39564-59e2-4ac1-80dd-02340c45b3b3": {
+          "type": "collection",
+          "settings": {
+            "collection": "mayday-parade",
+            "title": "MAYDAY PARADE",
+            "focal_point": "center center"
+          }
+        },
+        "6c63f26e-c176-4c09-9527-f7b700f6b561": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-memphis-may-fire",
+            "title": "MEMPHIS MAY FIRE",
+            "focal_point": "center center"
+          }
+        },
+        "d3c90ea2-8c10-4543-947d-2122edd9d486": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-merci",
+            "title": "MERCI",
+            "focal_point": "bottom center"
+          }
+        },
+        "80b1eaae-8437-44e5-a851-3ead625e6038": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-morgan-rose",
+            "title": "MORGAN ROSE",
+            "focal_point": "center center"
+          }
+        },
+        "a79d84f4-15f8-4cdd-8796-888c7db09f1f": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-mothica",
+            "title": "MOTHICA",
+            "focal_point": "center center"
+          }
+        },
+        "0bd474e4-5ea0-4b06-930c-54218be8373e": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-palisades",
+            "title": "PALISADES",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "164261435210b2ed18-0",
+        "164261435210b2ed18-1",
+        "164261435210b2ed18-2",
+        "164261435210b2ed18-3",
+        "7c19fafb-c4c7-40d8-b825-107c31880066",
+        "1112926c-21e7-4cc2-bbeb-e1db759c5a7d",
+        "5bf39564-59e2-4ac1-80dd-02340c45b3b3",
+        "6c63f26e-c176-4c09-9527-f7b700f6b561",
+        "d3c90ea2-8c10-4543-947d-2122edd9d486",
+        "80b1eaae-8437-44e5-a851-3ead625e6038",
+        "a79d84f4-15f8-4cdd-8796-888c7db09f1f",
+        "0bd474e4-5ea0-4b06-930c-54218be8373e"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    },
+    "16426151690d31f089": {
+      "type": "featured-collections",
+      "blocks": {
+        "16426151698c2f34f8-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-placebo",
+            "title": "PLACEBO",
+            "focal_point": "center center"
+          }
+        },
+        "16426151698c2f34f8-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-pup",
+            "title": "PUP",
+            "focal_point": "center center"
+          }
+        },
+        "16426151698c2f34f8-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-royal-coda",
+            "title": "ROYAL CODA",
+            "focal_point": "center center"
+          }
+        },
+        "16426151698c2f34f8-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-lp2",
+            "title": "SECRET BAND",
+            "focal_point": "center center"
+          }
+        },
+        "f993a79d-97fb-4bd5-b5b0-44a080dbac2d": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-social-animals",
+            "title": "SOCIAL ANIMALS",
+            "focal_point": "center center"
+          }
+        },
+        "9e482df7-bafb-4c49-852c-06f8303ae844": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-sevendust",
+            "title": "SEVENDUST",
+            "focal_point": "center center"
+          }
+        },
+        "ec09e25b-9b94-4e79-afc6-78d503186abc": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-spiritbox",
+            "title": "SPIRITBOX",
+            "focal_point": "center center"
+          }
+        },
+        "812204fe-fc61-47c2-a9bc-73e317b6633a": {
+          "type": "collection",
+          "settings": {
+            "collection": "thousand-below",
+            "title": "THOUSAND BELOW",
+            "focal_point": "center center"
+          }
+        },
+        "d1a40513-12d3-4a47-9be2-7be7ed79607e": {
+          "type": "collection",
+          "settings": {
+            "collection": "tiger-army",
+            "title": "TIGER ARMY",
+            "focal_point": "center center"
+          }
+        },
+        "68d804d9-73c2-479b-a43e-9f797efd67c3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-tilian",
+            "title": "TILIAN",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16426151698c2f34f8-0",
+        "16426151698c2f34f8-1",
+        "16426151698c2f34f8-2",
+        "16426151698c2f34f8-3",
+        "f993a79d-97fb-4bd5-b5b0-44a080dbac2d",
+        "9e482df7-bafb-4c49-852c-06f8303ae844",
+        "ec09e25b-9b94-4e79-afc6-78d503186abc",
+        "812204fe-fc61-47c2-a9bc-73e317b6633a",
+        "d1a40513-12d3-4a47-9be2-7be7ed79607e",
+        "68d804d9-73c2-479b-a43e-9f797efd67c3"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16426099801f437150",
+    "1642613127776c7a30",
+    "16426143527b3361a6",
+    "16426151690d31f089"
+  ]
+}

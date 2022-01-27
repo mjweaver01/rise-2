@@ -1,0 +1,206 @@
+<script>
+  window.addEventListener('DOMContentLoaded', function(event) {
+    var sliderFlickity = new Flickity('#Slider-{{ section.id }}', {
+      wrapAround: true,
+      pageDots: false,
+      adaptiveHeight: true,
+      lazyLoad: true,
+      imagesLoaded: true,
+      responsiveHeight: true
+    });
+
+    window.addEventListener('load', function(event) {
+      sliderFlickity.resize();
+    });
+
+    window.addEventListener('resize', function() {
+      sliderFlickity.resize();
+    });
+  });
+</script>
+
+<style>
+  /* General Styles */
+  #Slider-{{ section.id }}-wrapper {
+    white-space: nowrap;
+    margin-bottom: 80px;
+  }
+
+  #Slider-{{ section.id }} .grid-product img {
+    width: 100%;
+    height: auto;
+  }
+
+  @media only screen and (min-width: 769px) {
+    #Slider-{{ section.id }}-wrapper {
+      margin-bottom: 80px;
+    }
+  }
+  
+  /* Flickity styles */
+  #Slider-{{ section.id }} .flickity-viewport {
+    transition: height 0.2s;
+    overflow: hidden;
+  }
+
+  #Slider-{{ section.id }} .flickity-button {
+    padding: 1.5em;
+    top: 100%;
+    transform: none;
+    width: auto;
+    border-radius: 0;
+    background: transparent;
+    transition: background 0.15s;
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  #Slider-{{ section.id }} .flickity-button:hover {
+    background: rgba(0, 0, 0, 0.65);
+    transform: none;
+  }
+
+  #Slider-{{ section.id }} .flickity-previous {
+    left: unset;
+    right: 32px;
+  }
+
+  #Slider-{{ section.id }} .flickity-next {
+    right: 0;
+  }
+
+  /* Product specific */
+  #Slider-{{ section.id }} .grid-product {
+    position: relative;
+    display: inline-block;
+    margin-right: 17px;
+  }
+
+  @media only screen and (min-width: 769px) {
+    #Slider-{{ section.id }} .grid-product {
+      margin-right: 22px;
+    }
+  }
+
+  #Slider-{{ section.id }} .grid-product__content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.2s;
+    color: #fff;
+  }
+
+  #Slider-{{ section.id }} .grid-product .grid-product__content .grid-product__meta {
+    padding: 1em;
+    
+  }
+
+  #Slider-{{ section.id }} .grid-product .grid-product__content .grid-product__title,
+  #Slider-{{ section.id }} .grid-product .grid-product__content .grid-product__vendor {
+    white-space: break-spaces;
+    color: #fff!important;
+  }
+
+  #Slider-{{ section.id }} .grid-product:hover .grid-product__content {
+    opacity: 1;
+  }
+</style>
+
+<div
+  id="Slider-{{ section.id }}-wrapper"
+  data-section-id="{{ section.id }}"
+  class="index-section"
+>
+  {%- if section.settings.title != blank -%}
+    <div class="page-width">
+      <div class="section-header">
+        <h2 class="section-header__title">
+          {{ section.settings.title }}
+        </h2>
+      </div>
+    </div>
+  {%- endif -%}
+
+  <div class="slider-outer">
+    <div id="Slider-{{ section.id }}">
+      {%- for block in section.blocks -%}
+        <div class="grid-product small--one-half medium-up--one-fifth" data-aos="row-of-4">
+          <a href="{{ block.settings.link }}" class="grid-product__link">
+            <div class="image-wrap" class="height: 0; padding-bottom: 100%;">
+              <img 
+                class="animate-me"
+                src="{{ block.settings.image | img_url: 'master' }}"
+                width="600"
+                height="600"
+                loading="lazy"
+              >
+            </div>
+            <div class="grid-product__content">
+              <div class="grid-product__meta">
+                <div class="grid-product__title grid-product__title--heading">{{ block.settings.title }}</div>
+                <div class="grid-product__vendor">{{ block.settings.subtitle }}</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Featured Slider",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Featured Slider"
+      }
+    ],
+    "blocks" : [
+      {
+        "type": "item",
+        "name": "Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "id": "link",
+            "type": "url",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Album Title"
+          },
+          {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle",
+            "default": "Album Subtitle"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured Slider",
+        "blocks": []
+      }
+    ]
+  }
+{% endschema %}
