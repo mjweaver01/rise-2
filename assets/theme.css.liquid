@@ -244,7 +244,7 @@
   color:var(--colorBtnPrimaryText);
   background:{{ settings.color_button | default: "#000" }};
   background:var(--colorBtnPrimary);
-  border-radius:50%
+  /* border-radius:50% */
 }
 
 .hero .flickity-button{
@@ -252,7 +252,7 @@
     color:var(--colorTextBody);
     background-color:{{ settings.color_body_bg | default: "#fff" }};
     background-color:var(--colorBody);
-    box-shadow:0 5px 5px rgba(0, 0, 0, 0.1)
+    /* box-shadow:0 5px 5px rgba(0, 0, 0, 0.1) */
 }
 
 .flickity-button:hover{
@@ -371,53 +371,63 @@
 }
 
 .hero[data-arrows=true] .flickity-prev-next-button{
-    top:auto;
-    bottom:-20px;
-    transform:none;
+    top:50%;
+    transform:translateY(-50%);
+  }
+
+  .hero[data-arrows=true] .flickity-prev-next-button svg{
+    display: none;
   }
 
 .hero[data-arrows=true] .flickity-prev-next-button:hover{
-    transform:scale(1.12);
+    transform:translateY(-50%) scale(1.12);
   }
 
 .hero[data-arrows=true] .flickity-prev-next-button:active{
-    transform:scale(1);
+    transform:translateY(-50%) scale(1);
   }
 
 .hero[data-arrows=true] .flickity-previous{
-    left:auto;
-    right:90px;
+    right:auto;
+    left:40px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0098/1585/1086/files/leftSlideArrow.png?157);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
   }
 
 .hero[data-arrows=true] .flickity-next{
     right:40px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0098/1585/1086/files/rightSlideArrow.png?157);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
   }
 
 .hero[data-arrows=true].flickity-rtl .flickity-previous{
     right:auto;
-    left:90px;
-  }
-
-.hero[data-arrows=true].flickity-rtl .flickity-next{
-    right:auto;
     left:40px;
   }
 
+.hero[data-arrows=true].flickity-rtl .flickity-next{
+    left:auto;
+    right:40px;
+  }
+
 @media only screen and (max-width:768px){
-    .hero[data-arrows=true] .flickity-prev-next-button{
-      bottom:-16px;
-    }
     .hero[data-arrows=true] .flickity-previous{
-      right:60px;
+      left:20px;
     }
     .hero[data-arrows=true] .flickity-next{
-      right:20px;
+      right: 20px;
     }
     .hero[data-arrows=true].flickity-rtl .flickity-previous{
-      left:60px;
+      left:20px;
     }
     .hero[data-arrows=true].flickity-rtl .flickity-next{
-      left:20px;
+      right:20px;
     }
   }
 
@@ -6819,6 +6829,29 @@ input[type=image]{
   color:var(--colorHeroText)
 }
 
+.hero__text-wrap .image-wrapper {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.hero__text-wrap .image-wrapper img {
+  display: block;
+  height: 121px;
+  width: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .hero__text-wrap .image-wrapper img {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero__text-wrap .image-wrapper img {
+    display: none;
+  }
+}
+
 .video-interactable .hero__text-wrap{
     pointer-events:none
 }
@@ -7105,6 +7138,11 @@ input[type=image]{
 
 .loaded .slideshow__slide.is-selected .hero__link .btn:nth-child(2),[data-aos=hero__animation].loaded .hero__link .btn:nth-child(2){
     animation:fade-in 2s ease 1.6s forwards;
+  }
+
+.loaded .slideshow__slide.is-selected .image-wrapper img {
+    animation: 0.8s cubic-bezier(0.26, 0.54, 0.32, 1) 0.7s forwards;
+    animation-name:rise-up;
   }
 
 .loaded .slideshow__slide.is-selected .hero__image--svg,.loaded .slideshow__slide.is-selected .hero__image.lazyloaded,.loaded .slideshow__slide.is-selected .hero__media,[data-aos=hero__animation].loaded .hero__image--svg,[data-aos=hero__animation].loaded .hero__image.lazyloaded,[data-aos=hero__animation].loaded .hero__media{
@@ -11368,10 +11406,11 @@ html[dir=rtl] .product-single__meta .rte{
  /* Toolbar Icons */
 .toolbar, .header-item.toolbar-icons {
   display: none;
+  flex-grow: 0;
 }
 
 .header-item.toolbar-icons .page-width {
-  padding: 1em 0 1em 18px !important;
+  padding: 0 0 0 18px !important;
   margin-left: 23px;
   border-left: 1px solid {{ settings.color_header_text | default: "#000" }};
   border-left: 1px solid var(--colorNavText);

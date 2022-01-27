@@ -252,6 +252,19 @@
                           {%- endif -%}
                         {%- endif -%}
                       </div>
+
+                      {% if block.settings.thumbnail != blank %}
+                      <div class="image-wrapper animation-cropper">
+                        {%- assign img_url = block.settings.thumbnail | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        <img 
+                          class="animation-contents lazyload"
+                          src="{{ block.settings.thumbnail | img_url: '300x' }}"
+                          data-src="{{ img_url }}"
+                          data-sizes="auto"
+                          alt="{{ block.settings.title }} Thumbnail Image"
+                        >
+                      </div>
+                    {% endif %}
                     </div>
                   </div>
                 </div>
@@ -397,6 +410,11 @@
             "id": "title",
             "label": "Heading",
             "default": "Two line\ntitle slide."
+          },
+          {
+            "type": "image_picker",
+            "id": "thumbnail",
+            "label": "Thumbnail Image"
           },
           {
             "type": "text",
