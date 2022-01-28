@@ -168,18 +168,19 @@
               {%- endif -%}
             {%- endif -%}
 
+            <div class="header-item toolbar-icons">
+              {% if section.settings.show_locale_selector or section.settings.show_currency_selector or section.settings.toolbar_social or section.settings.toolbar_menu != blank %}
+                {% render 'toolbar',
+                  section: section,
+                  toolbar_menu: toolbar_menu,
+                  overlay_header: overlay_header
+                %}
+              {% endif %}
+            </div>
+
             <div class="header-item header-item--icons">
               {%- render 'header-icons', section: section -%}
             </div>
-            <div class="header-item toolbar-icons">
-                {% if section.settings.show_locale_selector or section.settings.show_currency_selector or section.settings.toolbar_social or section.settings.toolbar_menu != blank %}
-                  {% render 'toolbar',
-                    section: section,
-                    toolbar_menu: toolbar_menu,
-                    overlay_header: overlay_header
-                  %}
-                {% endif %}
-              </div>
           </div>
 
           {%- if section.settings.main_menu_alignment == 'center' -%}
