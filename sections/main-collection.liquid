@@ -30,6 +30,7 @@
                   {%- render 'subcollections', per_row: block.settings.subcollections_per_row -%}
                 {%- endif -%}
               {%- when 'product_grid' -%}
+                {%- assign collectionGridSectionId = block.id -%}
                 {%- assign paginate_by = block.settings.per_row | times: block.settings.rows_per_page -%}
                 {%- paginate collection.products by paginate_by -%}
                   {% render 'collection-grid',
@@ -43,10 +44,17 @@
                     mobile_flush_grid: block.settings.mobile_flush_grid,
                     quick_shop_enable: settings.quick_shop_enable
                   %}
-                  {%- if paginate.pages > 1 -%}
-                    {%- render 'pagination', paginate: paginate -%}
+                  {%- if section.settings.paginate_products == 'paginate' -%}
+                    {%- if paginate.pages > 1 -%}
+                      {%- render 'pagination', paginate: paginate -%}
+                    {%- endif -%}
+                  {% elsif section.settings.paginate_products == 'infinite' and paginate.pages > 1 %}
+                    <div class="pagination">
+                      <button id="startInfiniteScrolLWatcher" class="btn">
+                        <span>Load More</span>
+                      </button>
+                    </div>
                   {%- endif -%}
-
                 {%- endpaginate -%}
               {%- endcase -%}
             </div>
@@ -66,6 +74,64 @@
   .collection-content .grid__item--content { width: 100%; }
   .grid__item--sidebar { position: static; overflow: hidden; }
 {% endstyle %}
+{%- endif -%}
+
+{%- if section.settings.paginate_products == 'infinite' -%}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  let page = 1
+  let loadingMore = false
+
+  function loadMore() {
+    page += 1
+
+    console.log('load more', page)
+
+    fetch('{{ collection.url }}?page=' + page)
+      .then(response => response.text())
+      .then((responseText) => {
+        let resWrapper = document.createElement('div')
+        resWrapper.innerHTML = responseText
+
+        const parseRes = resWrapper.querySelector('.collection-grid__wrapper .grid').innerHTML
+        if(parseRes) {
+          document.querySelector('#CollectionAjaxContent .collection-grid__wrapper .grid').innerHTML += parseRes
+          loadingMore = false
+        } else {
+          document.removeEventListener('scroll', scrollMethod)
+          document.getElementById('startInfiniteScrolLWatcher').style.display = 'none'
+        }
+      })
+  }
+
+  function scrollMethod() {
+    let ticking = false
+
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        ticking = false
+
+        if (
+          (window.innerHeight + window.scrollY) >= (document.body.offsetHeight * 0.75)
+          && !loadingMore
+        ) {
+          loadMore()
+          loadingMore = true
+        }
+      })
+
+      ticking = true
+    }
+  }
+
+  const startInfinite = document.getElementById('startInfiniteScrolLWatcher')
+  startInfinite.addEventListener('click', (e) => {
+    startInfinite.classList.add('btn--loading')
+    loadMore()
+    document.addEventListener('scroll', scrollMethod)
+  })
+})
+</script>
 {%- endif -%}
 
 <script type="application/ld+json">
@@ -136,6 +202,22 @@
         "id": "enable_sort",
         "label": "Show sort options",
         "default": true
+      },
+      {
+        "type": "select",
+        "id": "paginate_products",
+        "label": "Paginate Products",
+        "default": "paginate",
+        "options": [
+          {
+            "value": "paginate",
+            "label": "Paginate"
+          },
+          {
+            "value": "infinite",
+            "label": "Infinite Scroll"
+          }
+        ]
       }
     ],
     "blocks": [
