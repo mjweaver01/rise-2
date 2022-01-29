@@ -9570,12 +9570,14 @@ html[dir=rtl] .background-media-text__text{
 }
   }
 
-.type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale),.type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale){
+.type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale),.type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale),
+.type-video-link .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale){
     color:{{ settings.color_image_text | default: "#fff" }};
     color:var(--colorHeroText)
   }
 
-.type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a,.type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a{
+.type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a,.type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a,
+.type-video-link .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a{
       color:{{ settings.color_image_text | default: "#fff" }};
       color:var(--colorHeroText);
       border-bottom:2px solid;
@@ -9583,16 +9585,19 @@ html[dir=rtl] .background-media-text__text{
       border-bottom-color:var(--colorHeroText)
     }
 
-[data-button_style=square] .type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a:not(.btn--inverse),[data-button_style=square] .type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a:not(.btn--inverse),[data-button_style^=round] .type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a:not(.btn--inverse),[data-button_style^=round] .type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a:not(.btn--inverse){
+[data-button_style=square] .type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a:not(.btn--inverse),[data-button_style=square] .type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a:not(.btn--inverse),[data-button_style^=round] .type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a:not(.btn--inverse),[data-button_style^=round] .type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a:not(.btn--inverse),
+[data-button_style=square] .type-video-link .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) a:not(.btn--inverse){
           border-bottom:0;
         }
 
-.type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) .btn--inverse,.type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) .btn--inverse{
+.type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) .btn--inverse,.type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) .btn--inverse,
+.type-video-link .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale) .btn--inverse{
       border-color:{{ settings.color_image_text | default: "#fff" }};
       border-color:var(--colorHeroText);
     }
 
-.type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale):after,.type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale):after{
+.type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale):after,.type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale):after,
+.type-video-link .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale):after{
       content:"";
       position:absolute;
       top:0;
@@ -9606,35 +9611,36 @@ html[dir=rtl] .background-media-text__text{
       z-index:2;
     }
 
-.type-advanced .rte--strong,.type-product .rte--strong,.type-sale_collection .rte--strong{
+.type-advanced .rte--strong,.type-product .rte--strong,.type-sale_collection .rte--strong, .type-video-link .rte--strong{
     font-family:var(--typeHeaderPrimary),var(--typeHeaderFallback);
     font-weight:var(--typeHeaderWeight);
     letter-spacing:var(--typeHeaderSpacing);
     line-height:var(--typeHeaderLineHeight);
   }
 
-[data-type_header_capitalize=true] .type-advanced .rte--strong,[data-type_header_capitalize=true] .type-product .rte--strong,[data-type_header_capitalize=true] .type-sale_collection .rte--strong{
+[data-type_header_capitalize=true] .type-advanced .rte--strong,[data-type_header_capitalize=true] .type-product .rte--strong,[data-type_header_capitalize=true] .type-sale_collection .rte--strong,
+[data-type_header_capitalize=true] .type-video-link .rte--strong{
     text-transform:uppercase;
   }
 
-.type-advanced .rte--strong,.type-product .rte--strong,.type-sale_collection .rte--strong{
+.type-advanced .rte--strong,.type-product .rte--strong,.type-sale_collection .rte--strong, .type-video-link .rte--strong{
     line-height:1.1;
   }
 
-.type-advanced .rte--em,.type-product .rte--em,.type-sale_collection .rte--em{
+.type-advanced .rte--em,.type-product .rte--em,.type-sale_collection .rte--em, .type-video-link .rte--em{
     text-transform:uppercase;
     letter-spacing:0.3em;
     font-size:0.9375em;
     line-height:1.2;
   }
 
-.type-advanced .rte--strong,.type-product .rte--strong{
+.type-advanced .rte--strong,.type-product .rte--strong, .type-video-link .rte--strong{
     font-size:1.6em;
     line-height:1.1;
   }
 
 @media only screen and (min-width:769px){
-    .type-advanced .rte--strong,.type-product .rte--strong{
+    .type-advanced .rte--strong,.type-product .rte--strong,.type-video-link .rte--strong{
       font-size:2.125em;
     }
       .type-product.flex-grid__item--33 .rte--strong,.type-product.flex-grid__item--50 .rte--strong{
