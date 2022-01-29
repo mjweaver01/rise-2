@@ -1,0 +1,71 @@
+<div class="grid">
+  {%- for block in section.blocks -%}
+    <div class="grid__item grid-product aos-init aos-animate small--one-half medium-up--one-quarter" data-aos="row-of-4">
+      <a href="{{ block.settings.link }}" class="grid-product__link">
+        <div class="image-wrap">
+          {%- liquid
+            assign preview_image = block.settings.image | img_url: '360x'
+            assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.'
+          -%}
+          <div class="grid__image-ratio grid__image-ratio--{{ settings.product_grid_image_size }}">
+            <img class="lazyload"
+              data-src="{{ img_url }}"
+              data-widths="[360, 540, 720, 900, 1080]"
+              data-aspectratio="{{ preview_image.aspect_ratio }}"
+              data-sizes="auto"
+              alt="{{ preview_image.alt | escape }}">
+          </div>
+        </div>
+        <div class="grid-product__content">
+          <div class="grid-product__meta">
+            <div class="grid-product__title grid-product__title--heading">{{ block.settings.title }}</div>
+            <div class="grid-product__vendor">{{ block.settings.subtitle }}</div>
+          </div>
+        </div>
+      </a>
+    </div>
+  {%- endfor -%}
+</div>
+
+
+{% schema %}
+  {
+    "name": "New Release Grid",
+    "blocks" : [
+      {
+        "type": "item",
+        "name": "Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "id": "link",
+            "type": "url",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Album Title"
+          },
+          {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle",
+            "default": "Album Subtitle"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "New Release Grid",
+        "blocks": []
+      }
+    ]
+  }
+{% endschema %}

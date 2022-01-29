@@ -1,0 +1,17 @@
+{
+  "wrapper": ".page-width.page-width--narrow.page-content",
+  "sections": {
+    "new-release-top": {
+      "type": "new-release-top",
+      "settings": {}
+    },
+    "new-release-grid": {
+      "type": "new-release-grid",
+      "settings": {}
+    }
+  },
+  "order": [
+    "new-release-top",
+    "new-release-grid"
+  ]
+}
