@@ -242,16 +242,16 @@
   border:none;
   color:{{ settings.color_button_text | default: "#fff" }};
   color:var(--colorBtnPrimaryText);
-  background:{{ settings.color_button | default: "#000" }};
-  background:var(--colorBtnPrimary);
+  /* background:{{ settings.color_button | default: "#000" }};
+  background:var(--colorBtnPrimary); */
   /* border-radius:50% */
 }
 
 .hero .flickity-button{
     color:{{ settings.color_body_text | default: "#1c1d1d" }};
     color:var(--colorTextBody);
-    background-color:{{ settings.color_body_bg | default: "#fff" }};
-    background-color:var(--colorBody);
+    /* background-color:{{ settings.color_body_bg | default: "#fff" }};
+    background-color:var(--colorBody); */
     /* box-shadow:0 5px 5px rgba(0, 0, 0, 0.1) */
 }
 
@@ -370,66 +370,66 @@
   z-index:5
 }
 
-.hero[data-arrows=true] .flickity-prev-next-button{
-    top:50%;
-    transform:translateY(-50%);
-  }
+.flickity-prev-next-button{
+  top:50%;
+  transform:translateY(-50%);
+}
 
-  .hero[data-arrows=true] .flickity-prev-next-button svg{
-    display: none;
-  }
+.flickity-prev-next-button svg{
+  display: none;
+}
 
-.hero[data-arrows=true] .flickity-prev-next-button:hover{
-    transform:translateY(-50%) scale(1.12);
-  }
+.flickity-prev-next-button:hover{
+  transform:translateY(-50%) scale(1.12);
+}
 
-.hero[data-arrows=true] .flickity-prev-next-button:active{
-    transform:translateY(-50%) scale(1);
-  }
+.flickity-prev-next-button:active{
+  transform:translateY(-50%) scale(1);
+}
 
-.hero[data-arrows=true] .flickity-previous{
-    right:auto;
-    left:40px;
-    background-image: url(https://cdn.shopify.com/s/files/1/0098/1585/1086/files/leftSlideArrow.png?157);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-position: center;
-  }
+.flickity-previous{
+  right:auto;
+  left:40px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0098/1585/1086/files/leftSlideArrow.png?157);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+}
 
-.hero[data-arrows=true] .flickity-next{
-    right:40px;
-    background-image: url(https://cdn.shopify.com/s/files/1/0098/1585/1086/files/rightSlideArrow.png?157);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-position: center;
-  }
+.flickity-next{
+  right:40px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0098/1585/1086/files/rightSlideArrow.png?157);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+}
 
-.hero[data-arrows=true].flickity-rtl .flickity-previous{
-    right:auto;
-    left:40px;
-  }
+.flickity-rtl .flickity-previous{
+  right:auto;
+  left:40px;
+}
 
-.hero[data-arrows=true].flickity-rtl .flickity-next{
-    left:auto;
-    right:40px;
-  }
+.flickity-rtl .flickity-next{
+  left:auto;
+  right:40px;
+}
 
 @media only screen and (max-width:768px){
-    .hero[data-arrows=true] .flickity-previous{
-      left:20px;
-    }
-    .hero[data-arrows=true] .flickity-next{
-      right: 20px;
-    }
-    .hero[data-arrows=true].flickity-rtl .flickity-previous{
-      left:20px;
-    }
-    .hero[data-arrows=true].flickity-rtl .flickity-next{
-      right:20px;
-    }
+  .flickity-previous{
+    left:20px;
   }
+  .flickity-next{
+    right: 20px;
+  }
+.flickity-rtl .flickity-previous{
+    left:20px;
+  }
+.flickity-rtl .flickity-next{
+    right:20px;
+  }
+}
 
 [data-bars=true].hero .flickity-page-dots{
     bottom:0;
