@@ -7,6 +7,7 @@
           "type": "image",
           "settings": {
             "title": "Circa Survive",
+            "thumbnail": "shopify:\/\/shop_images\/CIRCA-EP1-cover.jpg",
             "top_subheading": "A Dream About Love",
             "title_size": 60,
             "subheading": "OUT NOW",
@@ -25,6 +26,7 @@
           "type": "image",
           "settings": {
             "title": "mayday parade",
+            "thumbnail": "shopify:\/\/shop_images\/MYDPRD-WIMTFA_CVR-DSP_2.png",
             "top_subheading": "what it means to fall apart",
             "title_size": 60,
             "subheading": "out now",
@@ -43,6 +45,7 @@
           "type": "image",
           "settings": {
             "title": "Mothica",
+            "thumbnail": "shopify:\/\/shop_images\/HH-cover.jpg",
             "top_subheading": "heavy heart",
             "title_size": 60,
             "subheading": "out now",
@@ -68,7 +71,7 @@
         "mobile_height": "250px",
         "parallax": false,
         "style": "arrows",
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_speed": 7
       }
     },

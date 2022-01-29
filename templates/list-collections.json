@@ -108,33 +108,6 @@
             "title": "COLD COLLECTIVE",
             "focal_point": "center center"
           }
-        },
-        "52708272-1427-4c3d-ac0f-dcf2bb877bca": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "covey",
-            "title": "COVEY",
-            "focal_point": "center center"
-          }
-        },
-        "90d9612b-0c9f-4b69-a721-1ba488e0e9d8": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "artist-crown-the-empire",
-            "title": "CROWN THE EMPIRE",
-            "focal_point": "center center"
-          }
-        },
-        "3a4ececa-f24f-49be-9990-e747a17d106a": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "artist-dance-gavin-dance",
-            "title": "DANCE GAVIN DANCE",
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
@@ -149,13 +122,10 @@
         "609e58e7-d2df-41e6-8c2e-f9c8dcd71742",
         "c3ab2c84-bd75-40fa-a140-2b244f1355c7",
         "20e2f163-4cfd-4398-84e0-8c0824c397a5",
-        "611f6758-39f8-4baf-8732-1ea6e150822f",
-        "52708272-1427-4c3d-ac0f-dcf2bb877bca",
-        "90d9612b-0c9f-4b69-a721-1ba488e0e9d8",
-        "3a4ececa-f24f-49be-9990-e747a17d106a"
+        "611f6758-39f8-4baf-8732-1ea6e150822f"
       ],
       "settings": {
-        "title": "active roster",
+        "title": "Active Roster",
         "divider": false,
         "per_row": 4,
         "enable_gutter": true
@@ -505,6 +475,55 @@
         "per_row": 4,
         "enable_gutter": true
       }
+    },
+    "16434170143e7c4321": {
+      "type": "featured-collections",
+      "blocks": {
+        "1643417014f398afda-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "1643417014f398afda-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "1643417014f398afda-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "1643417014f398afda-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1643417014f398afda-0",
+        "1643417014f398afda-1",
+        "1643417014f398afda-2",
+        "1643417014f398afda-3"
+      ],
+      "settings": {
+        "title": "Alumni",
+        "divider": true,
+        "per_row": 4,
+        "enable_gutter": true
+      }
     }
   },
   "order": [
@@ -512,6 +531,7 @@
     "16426099801f437150",
     "1642613127776c7a30",
     "16426143527b3361a6",
-    "16426151690d31f089"
+    "16426151690d31f089",
+    "16434170143e7c4321"
   ]
 }

@@ -7,11 +7,164 @@
     },
     "new-release-grid": {
       "type": "new-release-grid",
+      "blocks": {
+        "644545a8-0ec6-407e-9ceb-52e0055a08be": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/272225986_112919257950504_5801499332998823605_n.jpg",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        },
+        "2a1ada66-74b2-41e9-91ec-a995f0ee75b8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/254825498_182784054042757_3628101313831000447_n.jpg",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        },
+        "f8b1f3b8-ee9d-4f71-8dd8-c3c5c132505e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CIRCA-EP1-cover.jpg",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        },
+        "a0d39b93-d82f-45a4-96a9-74be69427d02": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOTHICA-VIDEO.jpg",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        },
+        "a7431388-74e2-4b2e-8827-514d6216424f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CIRCA-BANNER.jpg",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        },
+        "c6c4ebeb-c50b-41fc-be42-aaf842afdeb8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOTHICA-BANNER-darker.jpg",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        },
+        "e063c73e-e4d4-4cb0-8ebf-4b9cef9dd24d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HH-cover.jpg",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        },
+        "34e5bc06-5b08-47bf-8c91-b847f9782172": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-04_at_9.52.55_AM.png",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "644545a8-0ec6-407e-9ceb-52e0055a08be",
+        "2a1ada66-74b2-41e9-91ec-a995f0ee75b8",
+        "f8b1f3b8-ee9d-4f71-8dd8-c3c5c132505e",
+        "a0d39b93-d82f-45a4-96a9-74be69427d02",
+        "a7431388-74e2-4b2e-8827-514d6216424f",
+        "c6c4ebeb-c50b-41fc-be42-aaf842afdeb8",
+        "e063c73e-e4d4-4cb0-8ebf-4b9cef9dd24d",
+        "34e5bc06-5b08-47bf-8c91-b847f9782172"
+      ],
+      "settings": {}
+    },
+    "1643428215aa645625": {
+      "type": "new-release-grid",
+      "blocks": {
+        "f09ce21a-6085-4fb0-b2f3-14e0fbbae856": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MYDPRD-WIMTFA_CVR-DSP_2.png",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        },
+        "1d7e327b-65dd-42cb-8b62-139021d4545a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-09-08_at_9.08.52_AM_dd4b2778-cb87-4db6-85c8-c61635353140.png",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        },
+        "5021c4fe-2c42-46fa-85c1-a8d99939ada3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-08-12_at_4.31.36_PM_9d11977f-242a-42bf-b7f4-f8189606c5b7.png",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        },
+        "5dd3a693-f57f-465d-b4a2-b959a330f8af": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-08-12_at_4.28.54_PM_ad64fabb-c826-42a3-9a61-756ef81f8753.png",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        },
+        "a510780a-df3d-43d9-ae4e-b1df82873f98": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSTLLRS_LIL_DSP_4000x4000_copy_1.jpg",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        },
+        "abb8b875-9681-46f6-b8f4-b8102a0ee4cd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-06-24_at_5.38.10_PM.png",
+            "link": "",
+            "title": "Album Title",
+            "subtitle": "Album Subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "f09ce21a-6085-4fb0-b2f3-14e0fbbae856",
+        "1d7e327b-65dd-42cb-8b62-139021d4545a",
+        "5021c4fe-2c42-46fa-85c1-a8d99939ada3",
+        "5dd3a693-f57f-465d-b4a2-b959a330f8af",
+        "a510780a-df3d-43d9-ae4e-b1df82873f98",
+        "abb8b875-9681-46f6-b8f4-b8102a0ee4cd"
+      ],
       "settings": {}
     }
   },
   "order": [
     "new-release-top",
-    "new-release-grid"
+    "new-release-grid",
+    "1643428215aa645625"
   ]
 }
