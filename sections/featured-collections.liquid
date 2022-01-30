@@ -7,7 +7,7 @@
     </div>
   {%- endif -%}
 
-  <div class="grid grid--uniform{% unless section.settings.enable_gutter %} grid--no-gutters{% endunless %}">
+  <div class="grid grid--uniform{% unless section.settings.enable_gutter %} grid--no-gutters{% endunless %}{% if section.settings.bottom_margin %} collection-list-bottom-margin{% endif %}">
     {%- liquid
       assign isEmpty = true
       if section.blocks.size > 0
@@ -90,6 +90,12 @@
         "id": "enable_gutter",
         "label": "Add spacing",
         "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "bottom_margin",
+        "label": "Add Bottom Margin",
+        "default": false
       }
     ],
     "presets": [{
