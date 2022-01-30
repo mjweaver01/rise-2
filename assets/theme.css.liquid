@@ -9394,6 +9394,63 @@ html[dir=rtl] .background-media-text__text{
   padding-top:40px
 }
 
+/* video promo grid custom styles MW */
+.promo-grid .type-video-link .promo-grid__video-play img {
+  max-width: 50px;
+  height: auto;
+}
+
+@media only screen and (min-width:769px) {
+  .promo-grid .type-video-link .promo-grid__video-text,
+  .promo-grid .type-video-link .promo-grid__video-play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.2s;
+  }
+
+  .promo-grid .type-video-link .promo-grid__video-play img {
+    max-width: 66px;
+  }
+  
+  .promo-grid .type-video-link .promo-grid__video-text {
+    opacity: 0;
+  }
+  
+  .promo-grid .type-video-link:hover .promo-grid__video-play {
+    opacity: 1;
+  }
+  
+  .promo-grid .type-video-link:hover .promo-grid__container {
+    position: relative;
+  }
+  
+  .promo-grid .type-video-link .promo-grid__container:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  
+  .promo-grid .type-video-link:hover .promo-grid__container:after,
+  .promo-grid .type-video-link:hover .promo-grid__video-text {
+    opacity: 1;
+  }
+  
+  .promo-grid .type-video-link:hover .promo-grid__video-play {
+    opacity: 0;
+  }
+}
+/* end video promo grid custom styles MW */
+
 @media only screen and (min-width:769px){
 
 .promo-grid--space-top{

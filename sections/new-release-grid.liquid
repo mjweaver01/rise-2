@@ -18,8 +18,8 @@
         </div>
         <div class="grid-product__content">
           <div class="grid-product__meta">
-            <div class="grid-product__vendor">{{ block.settings.subtitle }}</div>
-            <div class="grid-product__title grid-product__title--heading">{{ block.settings.title }}</div>
+            <div class="grid-product__title grid-product__title--heading" style="margin: 0;">{{ block.settings.title }}</div>
+            <div class="grid-product__vendor" style="margin: 0 0 4px 0;">{{ block.settings.subtitle }}</div>
             <div class="grid-product__price">{{ block.settings.description }}</div>
           </div>
         </div>
@@ -49,15 +49,15 @@
           },
           {
             "type": "text",
-            "id": "subtitle",
-            "label": "Subtitle",
-            "default": "Artist Subtitle"
+            "id": "title",
+            "label": "Title",
+            "default": "Artist Name"
           },
           {
             "type": "text",
-            "id": "title",
-            "label": "Title",
-            "default": "Artist Title"
+            "id": "subtitle",
+            "label": "Subtitle",
+            "default": "Album Title"
           },
           {
             "type": "text",

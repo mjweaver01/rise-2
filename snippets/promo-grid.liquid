@@ -183,7 +183,7 @@
 
               {%- if block.settings.heading != blank or block.settings.textarea != blank -%}
                 <div class="promo-grid__content">
-                  <div class="promo-grid__text">
+                  <div class="promo-grid__text promo-grid__video-text">
                     {%- if block.settings.heading != blank -%}
                       <div class="rte--block rte--strong">
                         {{ block.settings.heading }}
@@ -194,11 +194,13 @@
                         {{ block.settings.textarea | newline_to_br }}
                       </div>
                     {%- endif -%}
+                  </div>
+                  <div class="promo-grid__text promo-grid__video-play">
                     <img 
                       src="https://cdn.shopify.com/s/files/1/0098/1585/1086/files/playButton.png?157" 
                       alt="play"
-                      width="50"
-                      height="50"
+                      width="66"
+                      height="66"
                     >
                   </div>
                 </div>
