@@ -1,0 +1,77 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "separator",
+        "description"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "right",
+        "image_size": "medium",
+        "product_zoom_enable": false,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "blocks": {
+        "e476de95-0fcf-4261-ad13-bf51c684757f": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        }
+      },
+      "block_order": [
+        "e476de95-0fcf-4261-ad13-bf51c684757f"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "RELATED PRODUCTS",
+        "related_count": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

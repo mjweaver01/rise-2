@@ -128,7 +128,8 @@
         "title": "Active Roster",
         "divider": false,
         "per_row": 4,
-        "enable_gutter": true
+        "enable_gutter": true,
+        "bottom_margin": false
       }
     },
     "1642613127776c7a30": {
@@ -249,7 +250,8 @@
         "title": "",
         "divider": false,
         "per_row": 4,
-        "enable_gutter": true
+        "enable_gutter": true,
+        "bottom_margin": false
       }
     },
     "16426143527b3361a6": {
@@ -370,7 +372,8 @@
         "title": "",
         "divider": false,
         "per_row": 4,
-        "enable_gutter": true
+        "enable_gutter": true,
+        "bottom_margin": false
       }
     },
     "16426151690d31f089": {
@@ -473,7 +476,8 @@
         "title": "",
         "divider": false,
         "per_row": 4,
-        "enable_gutter": true
+        "enable_gutter": true,
+        "bottom_margin": true
       }
     },
     "16434170143e7c4321": {
@@ -522,7 +526,58 @@
         "title": "Alumni",
         "divider": true,
         "per_row": 4,
-        "enable_gutter": true
+        "enable_gutter": true,
+        "bottom_margin": false
+      }
+    },
+    "1643509779721119bd": {
+      "type": "featured-collections",
+      "blocks": {
+        "1643509779147b82a0-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "1643509779147b82a0-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "1643509779147b82a0-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "1643509779147b82a0-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1643509779147b82a0-0",
+        "1643509779147b82a0-1",
+        "1643509779147b82a0-2",
+        "1643509779147b82a0-3"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true,
+        "bottom_margin": false
       }
     }
   },
@@ -532,6 +587,7 @@
     "1642613127776c7a30",
     "16426143527b3361a6",
     "16426151690d31f089",
-    "16434170143e7c4321"
+    "16434170143e7c4321",
+    "1643509779721119bd"
   ]
 }

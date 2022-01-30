@@ -8,66 +8,28 @@
     "16431720467e6e14e3": {
       "type": "promo-grid",
       "blocks": {
-        "a2a71da6-4cde-4f79-af3e-52227802314f": {
-          "type": "banner",
+        "523ad2b5-e4c9-4e4c-8cae-cdc34b3ae950": {
+          "type": "video-link",
           "settings": {
-            "heading": "WANT TO WATCH MORE?",
-            "text": "Check out our YouTube page for more music videos",
-            "link": "https:\/\/www.youtube.com\/user\/riserecords",
-            "label": "VIEW NOW",
-            "color_tint": "#000000",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        },
-        "16431720466ff3f1b7-0": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "CROWN THE EMPIRE",
-            "textarea": "DANCING WITH THE DEAD",
-            "cta_text1": "",
+            "heading": "Artist Name",
+            "textarea": "Song Title",
             "cta_link1": "https:\/\/youtu.be\/6wkvOjxtieQ",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-26_at_11.29.09_AM_2c8b487f-5662-4b63-a283-f6a5fbc73e06.png",
-            "video_url": "",
-            "width": "50",
-            "height": 340,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-26_at_11.29.09_AM_2c8b487f-5662-4b63-a283-f6a5fbc73e06.png"
           }
         },
-        "16431720466ff3f1b7-1": {
-          "type": "advanced",
+        "ec703b85-2712-4e32-8383-e2c879c748c3": {
+          "type": "video-link",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "50",
-            "height": 340,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
+            "heading": "Artist Name",
+            "textarea": "Song Title",
+            "cta_link1": "#",
+            "image": "shopify:\/\/shop_images\/254825498_182784054042757_3628101313831000447_n.jpg"
           }
         }
       },
       "block_order": [
-        "a2a71da6-4cde-4f79-af3e-52227802314f",
-        "16431720466ff3f1b7-0",
-        "16431720466ff3f1b7-1"
+        "523ad2b5-e4c9-4e4c-8cae-cdc34b3ae950",
+        "ec703b85-2712-4e32-8383-e2c879c748c3"
       ],
       "settings": {
         "full_width": true,
