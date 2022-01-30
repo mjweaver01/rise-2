@@ -5,34 +5,18 @@
       "disabled": true,
       "settings": {}
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Get in touch"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {}
-    },
     "form": {
       "type": "contact-form",
-      "settings": {}
+      "settings": {
+        "title": "Get In Touch",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
     }
   },
   "order": [
     "main",
-    "rich-text",
     "form"
   ]
 }

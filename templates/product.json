@@ -34,7 +34,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "surface_pickup_enable": false
           }
         },
@@ -88,7 +88,7 @@
       "type": "product-recommendations",
       "settings": {
         "show_product_recommendations": true,
-        "product_recommendations_heading": "CHECK THESE OUT",
+        "product_recommendations_heading": "RELATED PRODUCTS",
         "related_count": 5
       }
     },
