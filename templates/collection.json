@@ -32,10 +32,62 @@
         "enable_sort": true,
         "paginate_products": "infinite"
       }
+    },
+    "1643741532302e6d5e": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1643741532bff10b4a-0": {
+          "type": "image",
+          "settings": {
+            "title": "Endless\npossibilities.",
+            "top_subheading": "",
+            "title_size": 60,
+            "subheading": "Bring your brand to life",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1643741532bff10b4a-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "16438267264188526a": {
+      "type": "hero-video",
+      "settings": {
+        "title": "Bring your\nbrand to life.",
+        "title_size": 80,
+        "subheading": "Seamless hero videos",
+        "link_text": "Optional button",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
     }
   },
   "order": [
     "collection-header",
-    "main-collection"
+    "main-collection",
+    "1643741532302e6d5e",
+    "16438267264188526a"
   ]
 }

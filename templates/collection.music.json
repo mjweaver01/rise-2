@@ -70,19 +70,8 @@
         "collapsed": true,
         "filter_style": "sidebar",
         "enable_color_swatches": false,
-        "enable_sort": true
-      }
-    },
-    "16431451065784a18e": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "all releases",
-        "home_featured_products": "all-music",
-        "per_row": 4,
-        "rows": 5,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": true
+        "enable_sort": true,
+        "paginate_products": "paginate"
       }
     }
   },
@@ -90,7 +79,6 @@
     "featured-collection",
     "featured-collection2",
     "featured-collection3",
-    "main-collection",
-    "16431451065784a18e"
+    "main-collection"
   ]
 }

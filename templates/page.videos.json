@@ -8,34 +8,167 @@
     "16431720467e6e14e3": {
       "type": "promo-grid",
       "blocks": {
+        "83e5c77e-7d25-45fe-8540-3702cdb02593": {
+          "type": "banner",
+          "settings": {
+            "heading": "LOOKING FOR MORE?",
+            "text": "Head to our YouTube channel for all music videos",
+            "link": "https:\/\/www.youtube.com\/user\/riserecords",
+            "label": "Watch Now",
+            "color_tint": "#000000",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
         "523ad2b5-e4c9-4e4c-8cae-cdc34b3ae950": {
           "type": "video-link",
           "settings": {
-            "heading": "Artist Name",
-            "textarea": "Song Title",
+            "heading": "Crown The Empire",
+            "textarea": "Dancing With The Dead",
             "cta_link1": "https:\/\/youtu.be\/6wkvOjxtieQ",
             "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-26_at_11.29.09_AM_2c8b487f-5662-4b63-a283-f6a5fbc73e06.png"
+          }
+        },
+        "dc5bbc8e-ec2a-47bd-907b-9e0f3fd3bf84": {
+          "type": "video-link",
+          "settings": {
+            "heading": "Circa Survive",
+            "textarea": "Imposter Syndrome",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=wtBYJUjbgIk",
+            "image": "shopify:\/\/shop_images\/CIRCA-VIDEO.jpg"
+          }
+        },
+        "c1cf4ea6-ff0a-43a5-82e1-29411ea9bad4": {
+          "type": "video-link",
+          "settings": {
+            "heading": "Mothica",
+            "textarea": "Heavy Heart",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=fau8MJFt394",
+            "image": "shopify:\/\/shop_images\/MOTHICA-VIDEO.jpg"
           }
         },
         "ec703b85-2712-4e32-8383-e2c879c748c3": {
           "type": "video-link",
           "settings": {
-            "heading": "Artist Name",
-            "textarea": "Song Title",
-            "cta_link1": "#",
-            "image": "shopify:\/\/shop_images\/254825498_182784054042757_3628101313831000447_n.jpg"
+            "heading": "Mayday Parade",
+            "textarea": "One For The Rocks And One For The Scary",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=UJBHUW4Cvxs",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-09-23_at_8.07.06_AM_0b143b57-c453-4689-bada-3d052ca9200d.png"
+          }
+        },
+        "366813d8-0eb4-4299-98d2-a1f811c4c147": {
+          "type": "video-link",
+          "settings": {
+            "heading": "Angels & Airwaves",
+            "textarea": "Spellbound",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=04DFw52bmtM",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-09-08_at_9.08.52_AM_dd4b2778-cb87-4db6-85c8-c61635353140.png"
+          }
+        },
+        "58f1be91-0585-444c-a46a-600746cb8371": {
+          "type": "video-link",
+          "settings": {
+            "heading": "Memphis May Fire",
+            "textarea": "Bleed Me Dry",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=OCdQ4hRi69k",
+            "image": "shopify:\/\/shop_images\/maxresdefault_c289d61c-f6b9-43c6-9859-d6c9c45e4c47.jpg"
+          }
+        },
+        "e0c51dce-e05a-4efb-b287-a65bef154369": {
+          "type": "video-link",
+          "settings": {
+            "heading": "Spiritbox",
+            "textarea": "Hurt You",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=ots5los164Q",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-08-19_at_6.20.42_PM_ebc49dc0-dfa0-4929-97ca-03b1140edffd.png"
+          }
+        },
+        "6197b848-d664-40a6-8981-feba4be1b231": {
+          "type": "video-link",
+          "settings": {
+            "heading": "Crown The Empire",
+            "textarea": "In Another Life Ft. Courtney LaPlante",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=6aGySSfiY9w",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-08-11_at_11.11.08_AM_67b787b4-f401-4221-90c7-4615e30c37ff.png"
+          }
+        },
+        "179db027-0308-4865-a90d-969a7405346a": {
+          "type": "video-link",
+          "settings": {
+            "heading": "Eidola",
+            "textarea": "Perennial Philosophy",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=IS0556h2_ic",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-08-12_at_4.31.36_PM_243157d0-037b-406f-98f6-e3672227592d.png"
+          }
+        },
+        "034c7a95-2383-4686-9955-c77e327b7395": {
+          "type": "video-link",
+          "settings": {
+            "heading": "Eidola",
+            "textarea": "Hidden Worship",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=p6yExMTbyNY",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-08-12_at_4.28.54_PM_ad64fabb-c826-42a3-9a61-756ef81f8753.png"
+          }
+        },
+        "10b2f6e4-6836-48af-99fc-4176ac2d2fd0": {
+          "type": "video-link",
+          "settings": {
+            "heading": "Angels & Airwaves",
+            "textarea": "Losing My Mind",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=e95efluJ9yw",
+            "image": "shopify:\/\/shop_images\/3_83c1208a-26c0-4e6c-9fd3-a9af0e4a0e41.jpg"
+          }
+        },
+        "6a838b75-7bcd-41bd-a65b-cb9aa4a74ba0": {
+          "type": "video-link",
+          "settings": {
+            "heading": "Memphis May Fire",
+            "textarea": "Death Inside",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=O7mlEvfg9j4",
+            "image": "shopify:\/\/shop_images\/MMF-DI---6_1_8145f335-60c4-48c6-a770-0d1d1fa66c68.jpg"
+          }
+        },
+        "b7dd27e4-174f-44cb-bffb-f066f0a034dc": {
+          "type": "video-link",
+          "settings": {
+            "heading": "Mayday Parade",
+            "textarea": "Kids Of Summer",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=YoVenTG4GGA",
+            "image": "shopify:\/\/shop_images\/kidsofsummer.jpg"
+          }
+        },
+        "047c45a6-dc8b-40ee-8d3c-4ffcd5ba3739": {
+          "type": "video-link",
+          "settings": {
+            "heading": "Angels & Airwaves",
+            "textarea": "Album & Tour Announce From Space",
+            "cta_link1": "https:\/\/www.youtube.com\/watch?v=DikrpZuv7ug",
+            "image": "shopify:\/\/shop_images\/screen_shot_2021-06-14_at_5.50.29_pm_d85bbe5e-2c13-405b-8415-89f1c425104f.png"
           }
         }
       },
       "block_order": [
+        "83e5c77e-7d25-45fe-8540-3702cdb02593",
         "523ad2b5-e4c9-4e4c-8cae-cdc34b3ae950",
-        "ec703b85-2712-4e32-8383-e2c879c748c3"
+        "dc5bbc8e-ec2a-47bd-907b-9e0f3fd3bf84",
+        "c1cf4ea6-ff0a-43a5-82e1-29411ea9bad4",
+        "ec703b85-2712-4e32-8383-e2c879c748c3",
+        "366813d8-0eb4-4299-98d2-a1f811c4c147",
+        "58f1be91-0585-444c-a46a-600746cb8371",
+        "e0c51dce-e05a-4efb-b287-a65bef154369",
+        "6197b848-d664-40a6-8981-feba4be1b231",
+        "179db027-0308-4865-a90d-969a7405346a",
+        "034c7a95-2383-4686-9955-c77e327b7395",
+        "10b2f6e4-6836-48af-99fc-4176ac2d2fd0",
+        "6a838b75-7bcd-41bd-a65b-cb9aa4a74ba0",
+        "b7dd27e4-174f-44cb-bffb-f066f0a034dc",
+        "047c45a6-dc8b-40ee-8d3c-4ffcd5ba3739"
       ],
       "settings": {
         "full_width": true,
         "gutter_size": 20,
         "space_above": false,
-        "space_below": false
+        "space_below": true
       }
     }
   },

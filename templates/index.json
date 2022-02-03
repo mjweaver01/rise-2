@@ -229,6 +229,14 @@
             "focal_point": "center center"
           }
         },
+        "438d8a45-b09e-4ba5-8535-db98e6e9c6a2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-spiritbox",
+            "title": "Spiritbox",
+            "focal_point": "center center"
+          }
+        },
         "6c948df0-10fe-4b8a-b4fd-126e64173836": {
           "type": "collection",
           "settings": {
@@ -252,14 +260,6 @@
             "title": "Chapel",
             "focal_point": "center center"
           }
-        },
-        "438d8a45-b09e-4ba5-8535-db98e6e9c6a2": {
-          "type": "collection",
-          "settings": {
-            "collection": "artist-spiritbox",
-            "title": "Spiritbox",
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
@@ -267,29 +267,17 @@
         "featured-collections-1",
         "featured-collections-0",
         "featured-collections-3",
+        "438d8a45-b09e-4ba5-8535-db98e6e9c6a2",
         "6c948df0-10fe-4b8a-b4fd-126e64173836",
         "846cddce-0f10-4d24-b51c-5a5b679fd797",
-        "8648ea9a-28d6-4e78-8785-08b660dee969",
-        "438d8a45-b09e-4ba5-8535-db98e6e9c6a2"
+        "8648ea9a-28d6-4e78-8785-08b660dee969"
       ],
       "settings": {
         "title": "Featured Artists",
         "divider": false,
         "per_row": 4,
-        "enable_gutter": true
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "vinyl vault",
-        "home_featured_products": "vinyl-lp",
-        "per_row": 4,
-        "rows": 2,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
+        "enable_gutter": true,
+        "bottom_margin": false
       }
     },
     "1643174220e81a5092": {
@@ -298,7 +286,7 @@
         "cc1b25d9-1e90-4191-8823-5f8e53bcb330": {
           "type": "button",
           "settings": {
-            "link": "",
+            "link": "shopify:\/\/collections",
             "link_text": "VIEW ALL ARTISTS"
           }
         }
@@ -310,85 +298,6 @@
         "align_text": "center",
         "narrow_column": false,
         "divider": false
-      }
-    },
-    "1642540663afecb960": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "ba54a636-7340-41a2-a34d-a7a335eb7543": {
-          "type": "button",
-          "settings": {
-            "link": "shopify:\/\/pages\/artists",
-            "link_text": "view all artists"
-          }
-        }
-      },
-      "block_order": [
-        "ba54a636-7340-41a2-a34d-a7a335eb7543"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "promo-grid": {
-      "type": "promo-grid",
-      "disabled": true,
-      "blocks": {
-        "promo-0": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "CROWN THE EMPIRE",
-            "textarea": "DANCING WITH THE DEAD",
-            "cta_text1": "WATCH NOW",
-            "cta_link1": "https:\/\/www.youtube.com\/watch?v=6wkvOjxtieQ",
-            "cta_text2": "",
-            "cta_link2": "",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=6wkvOjxtieQ",
-            "width": "50",
-            "height": 360,
-            "text_size": 90,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "promo-1": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "circa survive",
-            "textarea": "IMPOSTER SYNDROME",
-            "cta_text1": "watch now",
-            "cta_link1": "https:\/\/www.youtube.com\/watch?v=wtBYJUjbgIk",
-            "cta_text2": "",
-            "cta_link2": "",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=wtBYJUjbgIk",
-            "width": "50",
-            "height": 360,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "80% 50%",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "promo-0",
-        "promo-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false
       }
     },
     "164317443666ffbbca": {
@@ -463,37 +372,6 @@
         "full_width": false,
         "space_around": true
       }
-    },
-    "1643174439a9979bfb": {
-      "type": "newsletter",
-      "disabled": true,
-      "blocks": {
-        "1643174439ac3c587d-0": {
-          "type": "title",
-          "settings": {
-            "title": "SIGN UP TO STAY UPDATED."
-          }
-        },
-        "1643174439ac3c587d-2": {
-          "type": "form",
-          "settings": {}
-        },
-        "1cc901db-d446-48ef-9ff7-1dfce205873e": {
-          "type": "text",
-          "settings": {
-            "text": "<p>I would vote for a few edits here<\/p><p>1. we move the Street Team to the footer because very few people sign up for it.<\/p><p>2. See if this section can be style to have white lines around the enter your email box and change the button to white since right now it's hidden bc it's the same background as the section.<\/p><p>3. See if Mike or if Shopify has an option for SMS with liquid. Like can we style an SMS opt-in the same as the email box above and have that auto-push to Klaviyo. If not and we need to directly embed the Klavyio form, we can go back to the two side by side sections or see if Mike can add an HTML \/ liquid block to the email signup section.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1643174439ac3c587d-0",
-        "1643174439ac3c587d-2",
-        "1cc901db-d446-48ef-9ff7-1dfce205873e"
-      ],
-      "settings": {
-        "color_background": "#282828",
-        "color_text": "#ffffff"
-      }
     }
   },
   "order": [
@@ -501,13 +379,9 @@
     "16424486773b473527",
     "1643168804770467b4",
     "featured-collections",
-    "featured-collection",
     "1643174220e81a5092",
-    "1642540663afecb960",
-    "promo-grid",
     "164317443666ffbbca",
     "1642540727a003d2ee",
-    "16431418316cffa8c4",
-    "1643174439a9979bfb"
+    "16431418316cffa8c4"
   ]
 }

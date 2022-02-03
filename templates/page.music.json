@@ -1,0 +1,78 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1643777500a85f77d2": {
+      "type": "promo-grid",
+      "blocks": {
+        "981e3691-7969-41c6-9da9-8e3d9d058ef9": {
+          "type": "banner",
+          "settings": {
+            "heading": "Want to browse all music?",
+            "text": "",
+            "link": "#",
+            "label": "Shop All",
+            "color_tint": "#000000",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "981e3691-7969-41c6-9da9-8e3d9d058ef9"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "16437775296564cf20": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Vinyl",
+        "home_featured_products": "vinyl-lp",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1643777536ad12489e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "CD",
+        "home_featured_products": "cd",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": true
+      }
+    },
+    "164377906012e1d1a8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Cassette Tapes",
+        "home_featured_products": "cassette-tape",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1643777500a85f77d2",
+    "16437775296564cf20",
+    "1643777536ad12489e",
+    "164377906012e1d1a8"
+  ]
+}

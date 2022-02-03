@@ -8,101 +8,146 @@
     "new-release-grid": {
       "type": "new-release-grid",
       "blocks": {
-        "644545a8-0ec6-407e-9ceb-52e0055a08be": {
+        "cf04b782-15b5-4404-8fd9-ec8a6a1c3d1e": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/272225986_112919257950504_5801499332998823605_n.jpg",
-            "link": "",
-            "title": "Artist Name",
-            "subtitle": "Album Title",
+            "image": "shopify:\/\/shop_images\/CTEDWTD3000pxDSP12copy2-1635480792203.jpg",
+            "link": "shopify:\/\/collections\/artist-crown-the-empire-1",
+            "title": "CROWN THE EMPIRE",
+            "subtitle": "Dancing with the dead",
             "description": "OUT NOW"
           }
         },
         "2a1ada66-74b2-41e9-91ec-a995f0ee75b8": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/254825498_182784054042757_3628101313831000447_n.jpg",
+            "image": "shopify:\/\/shop_images\/CIRCA-EP1-cover.jpg",
             "link": "",
-            "title": "Artist Name",
-            "subtitle": "Album Title",
+            "title": "Circa Survive",
+            "subtitle": "A Dream about love",
             "description": "OUT NOW"
           }
         },
         "f8b1f3b8-ee9d-4f71-8dd8-c3c5c132505e": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CIRCA-EP1-cover.jpg",
-            "link": "",
-            "title": "Artist Name",
-            "subtitle": "Album Title",
+            "image": "shopify:\/\/shop_images\/AVA_LF_DSP_1.jpg",
+            "link": "shopify:\/\/collections\/artist-angels-airwaves",
+            "title": "Angels & Airwaves",
+            "subtitle": "Lifeforms",
             "description": "OUT NOW"
           }
         },
-        "a0d39b93-d82f-45a4-96a9-74be69427d02": {
+        "644545a8-0ec6-407e-9ceb-52e0055a08be": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOTHICA-VIDEO.jpg",
-            "link": "",
-            "title": "Artist Name",
-            "subtitle": "Album Title",
-            "description": "OUT NOW"
-          }
-        },
-        "a7431388-74e2-4b2e-8827-514d6216424f": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CIRCA-BANNER.jpg",
-            "link": "",
-            "title": "Artist Name",
-            "subtitle": "Album Title",
+            "image": "shopify:\/\/shop_images\/SPRTBX_ETRNL-BLU_4000x4000_1.jpg",
+            "link": "shopify:\/\/collections\/artist-spiritbox",
+            "title": "Spiritbox",
+            "subtitle": "Eternal Blue",
             "description": "OUT NOW"
           }
         },
         "c6c4ebeb-c50b-41fc-be42-aaf842afdeb8": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOTHICA-BANNER-darker.jpg",
-            "link": "",
-            "title": "Artist Name",
-            "subtitle": "Album Title",
-            "description": "OUT NOW"
-          }
-        },
-        "e063c73e-e4d4-4cb0-8ebf-4b9cef9dd24d": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HH-cover.jpg",
-            "link": "",
-            "title": "Artist Name",
-            "subtitle": "Album Title",
+            "image": "shopify:\/\/shop_images\/MYDPRD-WIMTFA_CVR-DSP_2.png",
+            "link": "shopify:\/\/collections\/mayday-parade",
+            "title": "Mayday Parade",
+            "subtitle": "What It means to fall apart",
             "description": "OUT NOW"
           }
         },
         "34e5bc06-5b08-47bf-8c91-b847f9782172": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-04_at_9.52.55_AM.png",
+            "image": "shopify:\/\/shop_images\/mmf-bleedmedry-cover1-1630036745750.jpg",
+            "link": "shopify:\/\/collections\/artist-memphis-may-fire",
+            "title": "Memphis May Fire",
+            "subtitle": "Bleed me dry",
+            "description": "OUT NOW"
+          }
+        },
+        "a7431388-74e2-4b2e-8827-514d6216424f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSTLLRS_LIL_DSP_4000x4000_copy_1.jpg",
+            "link": "shopify:\/\/collections\/artist-the-distillers",
+            "title": "The Distillers",
+            "subtitle": "live in lockdown",
+            "description": "OUT NOW"
+          }
+        },
+        "5fc9e8ca-7c53-44b0-8974-da01ebd6dd34": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mmf-deathinside-cover1copy-1626149377258.jpg",
+            "link": "shopify:\/\/collections\/artist-memphis-may-fire",
+            "title": "Memphis May Fire",
+            "subtitle": "Death Inside",
+            "description": "OUT NOW"
+          }
+        },
+        "0b7c6684-8873-4284-ba26-951389ae1f4f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MTSCNTRBND4000x4000-1624592943140.jpg",
+            "link": "shopify:\/\/collections\/artist-make-them-suffer-1",
+            "title": "Make Them Suffer",
+            "subtitle": "Contraband (Feat Courtney LaPlante)",
+            "description": "OUT NOW"
+          }
+        },
+        "a0d39b93-d82f-45a4-96a9-74be69427d02": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDYPRDE_KDSOFSMMR_DSP_1.jpg",
+            "link": "shopify:\/\/collections\/mayday-parade",
+            "title": "Mayday parade",
+            "subtitle": "kids of summer",
+            "description": "OUT NOW"
+          }
+        },
+        "f4ae4987-eca7-4b60-9a54-46b3585b9751": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AFIBodiesCoverStd1500px-1614225843482.jpg",
             "link": "",
-            "title": "Artist Name",
-            "subtitle": "Album Title",
+            "title": "AFI",
+            "subtitle": "BODIES",
+            "description": "OUT NOW"
+          }
+        },
+        "e063c73e-e4d4-4cb0-8ebf-4b9cef9dd24d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MRCI_SBTLFCTN_4000x4000_3.jpg",
+            "link": "shopify:\/\/collections\/artist-merci",
+            "title": "Merci",
+            "subtitle": "Subtle Fiction",
             "description": "OUT NOW"
           }
         }
       },
       "block_order": [
-        "644545a8-0ec6-407e-9ceb-52e0055a08be",
+        "cf04b782-15b5-4404-8fd9-ec8a6a1c3d1e",
         "2a1ada66-74b2-41e9-91ec-a995f0ee75b8",
         "f8b1f3b8-ee9d-4f71-8dd8-c3c5c132505e",
-        "a0d39b93-d82f-45a4-96a9-74be69427d02",
-        "a7431388-74e2-4b2e-8827-514d6216424f",
+        "644545a8-0ec6-407e-9ceb-52e0055a08be",
         "c6c4ebeb-c50b-41fc-be42-aaf842afdeb8",
-        "e063c73e-e4d4-4cb0-8ebf-4b9cef9dd24d",
-        "34e5bc06-5b08-47bf-8c91-b847f9782172"
+        "34e5bc06-5b08-47bf-8c91-b847f9782172",
+        "a7431388-74e2-4b2e-8827-514d6216424f",
+        "5fc9e8ca-7c53-44b0-8974-da01ebd6dd34",
+        "0b7c6684-8873-4284-ba26-951389ae1f4f",
+        "a0d39b93-d82f-45a4-96a9-74be69427d02",
+        "f4ae4987-eca7-4b60-9a54-46b3585b9751",
+        "e063c73e-e4d4-4cb0-8ebf-4b9cef9dd24d"
       ],
       "settings": {}
     },
     "1643428215aa645625": {
       "type": "new-release-grid",
+      "disabled": true,
       "blocks": {
         "f09ce21a-6085-4fb0-b2f3-14e0fbbae856": {
           "type": "item",

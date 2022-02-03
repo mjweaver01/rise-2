@@ -73,14 +73,15 @@
     "share_facebook": false,
     "share_twitter": false,
     "share_pinterest": false,
-    "checkout_logo_position": "left",
+    "checkout_logo_image": "shopify:\/\/shop_images\/fav.png",
+    "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_accent_color": "#111111",
     "checkout_button_color": "#111111",
-    "checkout_error_color": "#ff6d6d",
+    "checkout_error_color": "#c20000",
     "breadcrumb": false,
     "sections": {
       "header": {
