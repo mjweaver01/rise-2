@@ -6125,6 +6125,42 @@ lazySizesConfig.expFactor = 4;
   
         // Re-hook up collapsible box triggers
         theme.collapsibles.init(this.container);
+
+        this.contactModal = this.contactModal('.footerLink');
+      },
+
+      // @todo convert to vanilla js
+      contactModal(e) {
+        function openModal(){
+          var id = $(this).attr('id');
+          switch (id){
+            case 'get-in-touch':
+              var target = $('.reachModal');
+              break;
+            case 'send-a-demo':
+              var target = $('.demoModal');
+              break;
+            case 'join-our-street-team':
+              var target = false;
+              break;
+          }
+
+          if(target) {
+            $('.formModalOverlay').fadeIn();
+            $(target).fadeIn();
+            $('body').addClass('noScroll');
+          }
+        }
+
+        $(e).on('click', openModal);
+
+        function closeModal(){
+          $('.modal').fadeOut();
+          $('.formModalOverlay').fadeOut();
+          $('body').removeClass('noScroll');
+        }
+        $('.formModalOverlay').on('click', closeModal);
+        $('.demoModalExit').on('click', closeModal);
       },
   
       onUnload: function() {
