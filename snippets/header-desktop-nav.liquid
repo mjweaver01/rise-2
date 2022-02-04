@@ -18,7 +18,7 @@
       assign is_megamenu = false
       if link.links != blank
         assign has_dropdown = true
-        if link.levels > 1 or link.title contains 'Artists'
+        if link.levels > 1
           assign is_megamenu = true
         endif
       endif
@@ -75,9 +75,11 @@
                     {%- endif -%}
                   {%- endif -%}
 
+                  {%- unless link.title contains 'Artists' -%}
                   <div class="h5">
                     <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ childlink.title }}</a>
                   </div>
+                  {%- endunless -%}
 
                   {%- liquid
                     if childlink.levels > 0
