@@ -6126,19 +6126,19 @@ lazySizesConfig.expFactor = 4;
         // Re-hook up collapsible box triggers
         theme.collapsibles.init(this.container);
 
-        this.contactModal = this.contactModal('.footerLink');
+        // Rise 1.0 forms, re-written
+        this.contactModal = this.contactModal('footer li a');
       },
 
-      // @todo convert to vanilla js
-      contactModal(e) {
-        function openModal(){
-          var id = $(this).attr('id');
+      contactModal(sentSelector) {
+        function openModal(e) {
+          var id = e.target.getAttribute('id');
           switch (id){
             case 'get-in-touch':
-              var target = $('.reachModal');
+              var target = document.querySelector('.reachModal');
               break;
             case 'send-a-demo':
-              var target = $('.demoModal');
+              var target = document.querySelector('.demoModal');
               break;
             case 'join-our-street-team':
               var target = false;
@@ -6146,21 +6146,31 @@ lazySizesConfig.expFactor = 4;
           }
 
           if(target) {
-            $('.formModalOverlay').fadeIn();
-            $(target).fadeIn();
-            $('body').addClass('noScroll');
+            e.preventDefault();
+            e.stopPropagation();
+            document.querySelector('.formModalOverlay').style.display = 'block';
+            target.style.display = 'block';
+            document.body.classList.add('noScroll');
           }
         }
 
-        $(e).on('click', openModal);
+        document.querySelectorAll(sentSelector).forEach((el) => {
+          addEventListener('click', openModal.bind(el));
+        });
 
         function closeModal(){
-          $('.modal').fadeOut();
-          $('.formModalOverlay').fadeOut();
-          $('body').removeClass('noScroll');
+          document.querySelectorAll('.modal').forEach((el) => {
+            el.style.display = 'none';
+          });
+          
+          document.querySelector('.formModalOverlay').style.display = 'none';
+          document.body.classList.remove('noScroll');
         }
-        $('.formModalOverlay').on('click', closeModal);
-        $('.demoModalExit').on('click', closeModal);
+
+        document.querySelector('.formModalOverlay').addEventListener('click', closeModal);
+        document.querySelectorAll('.demoModalExit').forEach((el) => {
+          el.addEventListener('click', closeModal);
+        });
       },
   
       onUnload: function() {

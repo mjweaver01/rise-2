@@ -125,11 +125,13 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const startInfinite = document.getElementById('startInfiniteScrolLWatcher')
-  startInfinite.addEventListener('click', (e) => {
-    startInfinite.classList.add('btn--loading')
-    loadMore()
-    document.addEventListener('scroll', scrollMethod)
-  })
+  if (startInfinite) {
+    startInfinite.addEventListener('click', (e) => {
+      startInfinite.classList.add('btn--loading')
+      loadMore()
+      document.addEventListener('scroll', scrollMethod)
+    })
+  }
 })
 </script>
 {%- endif -%}

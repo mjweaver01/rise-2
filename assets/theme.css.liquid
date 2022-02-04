@@ -11683,3 +11683,186 @@ html[dir=rtl] .product-single__meta .rte{
     height: 250px !important;
   }
   }
+
+  /* Rise 1.0 forms, re-written */
+  .noScroll {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  @-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  footer .formModalOverlay,
+  footer .modal {
+    -webkit-animation: fadeIn 0.3s;
+    animation: fadeIn 0.3s;
+  }
+
+  footer .formModalOverlay {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 400;
+    top: 0px;
+    left: 0px;
+    display: block;
+  }
+  footer .modal {
+    width: calc(100vw - 40px);
+    max-width: 680px;
+    height: auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    display: block;
+    z-index: 401;
+    background: white;
+    max-height: calc(100% - 40px);
+    overflow: auto;
+
+  }
+  footer .modal .modalInner {
+    height: auto;
+    width: 100%;
+    padding: 60px 40px 40px;
+    color: black;
+  }
+  footer .modal .modalInner .demoModalExit {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  footer .modal .modalInner .modalText__Title {
+    font-size: 64px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    font-weight: 900;
+    font-family: "proxima-nova", sans-serif;
+  }
+  footer .modal .modalInner .modalText {
+    margin-bottom: 40px;
+  }
+  footer .modal .modalInner .modalText__desc {
+    font-size: 16px;
+    letter-spacing: 0.27px;
+    line-height: 20px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+  footer .modal .modalInner .contactInput {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  footer .modal .modalInner .contactInput:after {
+    content: "";
+    position: absolute;
+    font-size: 15px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.47px;
+    padding: 0px 7px;
+    left: 13px;
+    top: -8px;
+    background: white;
+  }
+  footer .modal .modalInner .contactInput input {
+    width: 100%;
+    height: 48px;
+    -webkit-appearance: none;
+    background: transparent;
+    font-size: 15px;
+    padding: 0px;
+    padding-left: 20px;
+    border: 1px solid #B2B2B2;
+  }
+  footer .modal .modalInner .contactInput textarea {
+    width: 100%;
+    height: 108px;
+    -webkit-appearance: none;
+    background: transparent;
+    font-size: 15px;
+    padding: 20px 20px;
+    border: 1px solid #B2B2B2;
+  }
+  footer .modal .modalInner .modalSuccess {
+    margin-bottom: 40px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: bold;
+  }
+  footer .modal .modalInner .contactInput--firstName:after {
+    content: " First Name ";
+  }
+  footer .modal .modalInner .contactInput--lastName:after {
+    content: " Last Name ";
+  }
+  footer .modal .modalInner .contactInput--email:after {
+    content: " Email Address ";
+  }
+  footer .modal .modalInner .contactInput--subject:after {
+    content: " Subject ";
+  }
+  footer .modal .modalInner .contactInput--message:after {
+    content: " Message ";
+  }
+  footer .modal .modalInner .contactInput--streetAddress:after {
+    content: " Street Address ";
+  }
+  footer .modal .modalInner .contactInput--city:after {
+    content: " City ";
+  }
+  footer .modal .modalInner .contactInput--State:after {
+    content: " State/Prov/Region ";
+  }
+  footer .modal .modalInner .contactInput--Zip:after {
+    content: " Postal/Zip ";
+  }
+  footer .modal .modalInner .contactInput--Country:after {
+    content: " Country ";
+  }
+  footer .modal .modalInner .contactInput--streetArtists:after {
+    content: " Who are your 3 favorite artists on Rise Records? ";
+  }
+  footer .modal .modalInner .contactFlex {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .modal .modalInner .contactInput--half {
+    width: calc(((100% - 20px) / 2) - 2px);
+  }
+  footer .modal .modalInner .modalButton {
+    width: 178px;
+    height: 48px;
+    background: #282828;
+    border: 1px solid #282828;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "rift", sans-serif;
+    letter-spacing: 0.9px;
+    transition: all 0.2s;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+  }
+  footer .modal .modalInner .modalButton:hover {
+    color: #282828;
+    background: transparent;
+  }
+  

@@ -114,105 +114,92 @@
     Designed by <a href="https://www.crookedyouth.co">Crooked Youth</a> </p>
 
   </div>
+
+  <!-- Port from Rise 1.0 -->
+  <div class="formModalOverlay" style="display:none;"></div>
+
+  <div class="modal reachModal" style="display:none;">
+    <div class="modalInner">
+      <div class="demoModalExit">
+        ✕
+      </div>
+      <div class="modalText">
+        <div class="modalText__Title">
+          Reach Out<br>To Rise.
+        </div>
+      </div>
+      {% form 'contact', id: 'reach-out' %}
+        {% if form.posted_successfully? %}
+          <div class="modalSuccess">
+            Thank you for reaching out
+          </div>
+        {% endif %}
+        {% if form.errors %}
+          {{ form.errors | default_errors }}
+        {% endif %}
+        <div class="contactForm">
+          <div class="contactInput contactInput--firstName">
+            <input type="text" id="reachFormFirstName" name="contact[First Name]">
+          </div>
+          <div class="contactInput contactInput--lastName">
+            <input type="text" id="reachFormLastName" name="contact[Last Name]">
+          </div>
+          <div class="contactInput contactInput--email">
+            <input type="email" id="reachFormEmail" name="contact[email]">
+          </div>
+          <div class="contactInput contactInput--subject">
+            <input type="text" id="reachFormSubject" name="contact[Subject]">
+          </div>
+          <div class="contactInput contactInput--message">
+            <textarea id="reachFormMessage" name="contact[Message]"></textarea>
+          </div>
+        </div>
+        <input type="submit" class="modalButton" value="SEND">
+      {% endform %}
+    </div>
+  </div>
+  
+  <div class="modal demoModal" style="display:none;">
+    <div class="modalInner">
+      <div class="demoModalExit">
+        ✕
+      </div>
+      <div class="modalText">
+        <div class="modalText__Title">
+          Send Us<br>Your Demo.
+        </div>
+        <div class="modalText__desc">
+          Email a link to your music (soundcloud, bandcamp, youtube, etc – no downloads please) using the form below. Please don't mail a presskit.
+        </div>
+      </div>
+      {% form 'contact', id: 'demo' %}
+        {% if form.posted_successfully? %}
+          <div class="modalSuccess">
+            Thank you for reaching out
+          </div>
+        {% endif %}
+        {% if form.errors %}
+          {{ form.errors | default_errors }}
+        {% endif %}
+        <div class="contactForm">
+          <div class="contactInput contactInput--firstName">
+            <input type="text" id="demoFormFirstName" name="contact[First Name]">
+          </div>
+          <div class="contactInput contactInput--lastName">
+            <input type="text" id="demoFormLastName" name="contact[Last Name]">
+          </div>
+          <div class="contactInput contactInput--email">
+            <input type="email" id="demoFormEmail" name="contact[email]">
+          </div>
+          <div class="contactInput contactInput--message">
+            <textarea id="demoFormMessage" name="contact[Message]"></textarea>
+          </div>
+        </div>
+        <input type="submit" class="btn modalButton" value="SEND">
+      {% endform %}
+    </div>
+  </div>
 </footer>
-
-<div class="modal reachModal" style="display:none;">
-  <div class="modalInner">
-    <div class="demoModalExit">
-      ✕
-    </div>
-    <div class="modalText">
-      <div class="modalText__Title">
-        Reach Out<br>To Rise.
-      </div>
-    </div>
-    {% form 'contact' %}
-      {% if form.posted_successfully? %}
-        <div class="modalSuccess">
-          Thank you for reaching out
-        </div>
-      {% endif %}
-      {{ form.errors | default_errors }}
-      <div class="contactForm">
-        <div class="contactInput contactInput--firstName">
-          <input type="text" id="reachFormFirstName" name="contact[First Name]">
-        </div>
-        <div class="contactInput contactInput--lastName">
-          <input type="text" id="reachFormLastName" name="contact[Last Name]">
-        </div>
-        <div class="contactInput contactInput--email">
-          <input type="email" id="reachFormEmail" name="contact[email]">
-        </div>
-        <div class="contactInput contactInput--subject">
-          <input type="text" id="reachFormSubject" name="contact[Subject]">
-        </div>
-        <div class="contactInput contactInput--message">
-          <textarea id="reachFormMessage" name="contact[Message]"></textarea>
-        </div>
-      </div>
-      <input type="submit" class="modalButton" value="SEND">
-    {% endform %}
-  </div>
-</div>
-
-<div class="modal joinModal" style="display:none;">
-  <div class="modalInner">
-    <div class="demoModalExit">
-      ✕
-    </div>
-    <div class="modalText">
-      <div class="modalText__Title">
-        Join Our<br>Street Team.
-      </div>
-      <div class="modalText__desc">
-        Become part of our NEW street team and receive updates and tools (including posters & stickers) to promote your favorite bands!
-      </div>
-    </div>
-    {% form 'contact' %}
-      {% if form.posted_successfully? %}
-        <div class="modalSuccess">
-          Thank you for reaching out
-        </div>
-      {% endif %}
-      {{ form.errors | default_errors }}
-      <div class="contactForm">
-        <div class="contactInput contactInput--email">
-          <input type="email" id="joinFormEmail" name="contact[email]">
-        </div>
-        <div class="contactInput contactInput--firstName">
-          <input type="text" id="joinFormFirstName" name="contact[First Name]">
-        </div>
-        <div class="contactInput contactInput--lastName">
-          <input type="text" id="joinFormLastName" name="contact[Last Name]">
-        </div>
-        <div class="contactInput contactInput--streetAddress">
-          <input type="text" id="joinFormAddress" name="contact[Street Address]">
-        </div>
-        <div class="contactFlex">
-          <div class="contactInput contactInput--half contactInput--city">
-            <input type="text" id="joinFormCity" name="contact[City]">
-          </div>
-          <div class="contactInput contactInput--half contactInput--State">
-            <input type="text" id="joinFormState" name="contact[State]">
-          </div>
-        </div>
-        <div class="contactFlex">
-          <div class="contactInput contactInput--half contactInput--Zip">
-            <input type="text" id="joinFormZip" name="contact[Zip Code]">
-          </div>
-          <div class="contactInput contactInput--half contactInput--Country">
-            <input type="text" id="joinFormCountry" name="contact[Country]">
-          </div>
-        </div>
-        <div class="contactInput contactInput--streetArtists">
-          <input type="text" id="joinFormFavorite" name="contact[Favorite Artists]">
-        </div>
-      </div>
-      <input type="submit" class="modalButton" value="SEND">
-    {% endform %}
-  </div>
-</div>
-
 
 {% schema %}
   {
