@@ -184,14 +184,14 @@
               {%- if block.settings.heading != blank or block.settings.textarea != blank -%}
                 <div class="promo-grid__content">
                   <div class="promo-grid__text promo-grid__video-text">
-                    {%- if block.settings.heading != blank -%}
+                    {%- if block.settings.textarea != blank -%}
                       <div class="rte--block rte--strong">
-                        {{ block.settings.heading }}
+                        {{ block.settings.textarea | newline_to_br }}
                       </div>
                     {%- endif -%}
-                    {%- if block.settings.textarea != blank -%}
+                    {%- if block.settings.heading != blank -%}
                       <div class="rte--block">
-                        {{ block.settings.textarea | newline_to_br }}
+                        {{ block.settings.heading }}
                       </div>
                     {%- endif -%}
                   </div>
