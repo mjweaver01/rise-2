@@ -1,4 +1,4 @@
-<div class="grid">
+<div class="grid new-release-grid">
   {%- for block in section.blocks -%}
     <div class="grid__item grid-product aos-init aos-animate small--one-half medium-up--one-quarter" data-aos="row-of-4">
       <a href="{{ block.settings.link }}" class="grid-product__link">
@@ -28,6 +28,57 @@
   {%- endfor -%}
 </div>
 
+<style>
+.new-release-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width:769px) {
+  .grid-product__link {
+    position: relative;
+  }
+
+  .grid-product__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+
+  .grid-product__content * {
+    color: white !important;
+  }
+
+  .grid-product__content:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,.8);
+    z-index: 0;
+    transition: opacity .2s;
+  }
+
+  .grid-product__meta {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .grid__item:hover .grid-product__content {
+    opacity: 1;
+  }
+}
+</style>
 
 {% schema %}
   {
