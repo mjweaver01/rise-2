@@ -1,14 +1,50 @@
 {
   "sections": {
+    "1644453711b73bb7df": {
+      "type": "rich-text",
+      "blocks": {
+        "16444537110fd4e715-0": {
+          "type": "heading",
+          "settings": {
+            "title": "404 PAGE NOT FOUND"
+          }
+        },
+        "16444537110fd4e715-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Oh no, the page you were looking for does not exist.<\/p>"
+          }
+        },
+        "9e3f6a0f-2f72-4fcc-8375-60ae9a516741": {
+          "type": "button",
+          "settings": {
+            "link": "\/",
+            "link_text": "BACK TO HOMEPAGE"
+          }
+        }
+      },
+      "block_order": [
+        "16444537110fd4e715-0",
+        "16444537110fd4e715-1",
+        "9e3f6a0f-2f72-4fcc-8375-60ae9a516741"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "main": {
       "type": "main-404",
+      "disabled": true,
       "settings": {}
     },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Shop Latest Releases",
-        "home_featured_products": "",
+        "title": "Shop Best Sellers",
+        "home_featured_products": "best-sellers",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -18,6 +54,7 @@
     }
   },
   "order": [
+    "1644453711b73bb7df",
     "main",
     "featured-collection"
   ]

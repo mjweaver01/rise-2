@@ -66,6 +66,33 @@
         "view_all": true,
         "divider": true
       }
+    },
+    "1644422235c99a35e9": {
+      "type": "rich-text",
+      "blocks": {
+        "164442223576f61612-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Not sure what you want?"
+          }
+        },
+        "ecc42b22-f97d-4c27-af74-999b0db82854": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/collections",
+            "link_text": "Shop by Artist"
+          }
+        }
+      },
+      "block_order": [
+        "164442223576f61612-0",
+        "ecc42b22-f97d-4c27-af74-999b0db82854"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -73,6 +100,7 @@
     "1643777500a85f77d2",
     "16437775296564cf20",
     "1643777536ad12489e",
-    "164377906012e1d1a8"
+    "164377906012e1d1a8",
+    "1644422235c99a35e9"
   ]
 }

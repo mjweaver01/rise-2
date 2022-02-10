@@ -11,9 +11,9 @@
         "981e3691-7969-41c6-9da9-8e3d9d058ef9": {
           "type": "banner",
           "settings": {
-            "heading": "Want to browse all apparel?",
+            "heading": "Want to browse all accessories?",
             "text": "",
-            "link": "#",
+            "link": "shopify:\/\/collections\/accessory",
             "label": "Shop All",
             "color_tint": "#000000",
             "color_tint_opacity": 8,
@@ -34,8 +34,20 @@
     "16437775296564cf20": {
       "type": "featured-collection",
       "settings": {
-        "title": "Shirts",
-        "home_featured_products": "t-shirt-1",
+        "title": "Headwear",
+        "home_featured_products": "hat",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "164377906012e1d1a8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Posters",
+        "home_featured_products": "poster",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -52,11 +64,11 @@
             "subheading": "",
             "heading": "",
             "textarea": "",
-            "cta_text1": "Longsleeves",
-            "cta_link1": "",
+            "cta_text1": "SHOP VINYL",
+            "cta_link1": "shopify:\/\/collections\/vinyl-lp",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Rise-Records-shop-longsleeves.jpg",
+            "image": "shopify:\/\/shop_images\/Vinyl-DGD-lifestyle.jpg",
             "video_url": "",
             "width": "50",
             "height": 560,
@@ -74,11 +86,11 @@
             "subheading": "",
             "heading": "",
             "textarea": "",
-            "cta_text1": "Sweatshirts",
+            "cta_text1": "Shop Bags",
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/118635729_365369297802361_6228286367341964261_n.jpg",
+            "image": "shopify:\/\/shop_images\/Rise-accessories-lifestyle.jpg",
             "video_url": "",
             "width": "50",
             "height": 560,
@@ -105,8 +117,8 @@
     "164377906330f9e350": {
       "type": "featured-collection",
       "settings": {
-        "title": "Tank Tops",
-        "home_featured_products": "tanktop",
+        "title": "Jewlery",
+        "home_featured_products": "jewelery",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -117,20 +129,8 @@
     "1643777536ad12489e": {
       "type": "featured-collection",
       "settings": {
-        "title": "Sweatshirts",
-        "home_featured_products": "pullover",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "164377906012e1d1a8": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Outerwear",
-        "home_featured_products": "jacket",
+        "title": "Pins & Patches",
+        "home_featured_products": "pin",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -170,10 +170,10 @@
     "main",
     "1643777500a85f77d2",
     "16437775296564cf20",
+    "164377906012e1d1a8",
     "1643778662e39217c9",
     "164377906330f9e350",
     "1643777536ad12489e",
-    "164377906012e1d1a8",
     "1644422058383819bb"
   ]
 }
