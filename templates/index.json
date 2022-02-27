@@ -3,68 +3,68 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "37e46d54-eb3d-428b-930d-7b748ff526ee": {
+          "type": "image",
+          "settings": {
+            "title": "MOTHICA",
+            "thumbnail": "shopify:\/\/shop_images\/Casualty_Single_Art_1_48b5f508-a7c4-406a-bc1f-e8d477ed4dd6.jpg",
+            "top_subheading": "CASUALTY",
+            "title_size": 60,
+            "subheading": "out now",
+            "link": "https:\/\/heavyheart.lnk.to\/CASUALTY",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/Mothica_x_Lissyelle-1_1_02e9c6b4-37e3-427b-8a0b-9f4885429be1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
         "slideshow-0": {
           "type": "image",
           "settings": {
-            "title": "Circa Survive",
-            "thumbnail": "shopify:\/\/shop_images\/CIRCA-EP1-cover.jpg",
-            "top_subheading": "A Dream About Love",
+            "title": "PUP",
+            "thumbnail": "shopify:\/\/shop_images\/PUP_UNRAVELING_1080_6fee7c55-39b8-410a-a991-115f8e369f4e.jpg",
+            "top_subheading": "THE UNRAVELING OF PUPTHEBAND",
             "title_size": 60,
-            "subheading": "OUT NOW",
-            "link": "",
+            "subheading": "OUT 4\/1",
+            "link": "https:\/\/pup.lnk.to\/TUOPTB",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/CIRCA-BANNER.jpg",
+            "image": "shopify:\/\/shop_images\/VH_PUP2021_0008_2-banner.jpg",
             "overlay_opacity": 0,
-            "focal_point": "top center"
+            "focal_point": "center center"
           }
         },
         "65121768-eecd-44e2-8843-c809163ed2f0": {
           "type": "image",
           "settings": {
-            "title": "mayday parade",
-            "thumbnail": "shopify:\/\/shop_images\/MYDPRD-WIMTFA_CVR-DSP_2.png",
-            "top_subheading": "what it means to fall apart",
+            "title": "Memphis May Fire",
+            "thumbnail": "shopify:\/\/shop_images\/mmf-remadeinmisery-cover_copy_3_4664ddbb-7e86-4071-8f70-549caa221d94.jpg",
+            "top_subheading": "Remade In Misery",
             "title_size": 60,
-            "subheading": "out now",
-            "link": "",
+            "subheading": "Out 6\/3",
+            "link": "https:\/\/riserecords.lnk.to\/MMF",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-09-22_at_10.53.47_PM.png",
+            "image": "shopify:\/\/shop_images\/MMF-BANNER-darker-v2.jpg",
             "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "37e46d54-eb3d-428b-930d-7b748ff526ee": {
-          "type": "image",
-          "settings": {
-            "title": "Mothica",
-            "thumbnail": "shopify:\/\/shop_images\/HH-cover.jpg",
-            "top_subheading": "heavy heart",
-            "title_size": 60,
-            "subheading": "out now",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/MOTHICA-BANNER-darker.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "focal_point": "top center"
           }
         }
       },
       "block_order": [
+        "37e46d54-eb3d-428b-930d-7b748ff526ee",
         "slideshow-0",
-        "65121768-eecd-44e2-8843-c809163ed2f0",
-        "37e46d54-eb3d-428b-930d-7b748ff526ee"
+        "65121768-eecd-44e2-8843-c809163ed2f0"
       ],
       "settings": {
         "section_height": "550px",
@@ -81,46 +81,46 @@
         "01ad7d25-3458-4818-a7ee-4bb9c97a68ac": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MDYPRDE_KDSOFSMMR_DSP_1.jpg",
-            "link": "shopify:\/\/collections\/mayday-parade",
-            "title": "Mayday Parade",
-            "subtitle": "Kids of Summer"
+            "image": "shopify:\/\/shop_images\/mmf-makebelieve-cover_1_4fe86cd5-0f09-42fe-b52e-f69b20494311.jpg",
+            "link": "shopify:\/\/collections\/artist-memphis-may-fire",
+            "title": "Memphis May Fire",
+            "subtitle": "Make Believe"
           }
         },
         "e2076de2-ab26-4f92-9f68-ec388da9edb9": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SPRTBX_ETRNL-BLU_4000x4000_1.jpg",
-            "link": "shopify:\/\/collections\/artist-spiritbox",
-            "title": "Spiritbox",
-            "subtitle": "Eternal Blue"
+            "image": "shopify:\/\/shop_images\/KKTX_LFOA_DSP_1_e3d34be2-67a6-466f-a62e-a5abb2cbeefc.jpg",
+            "link": "shopify:\/\/collections\/artist-kublai-khan",
+            "title": "Kublai Khan TX",
+            "subtitle": "Swan Song (feat. Scott Vogel)"
           }
         },
         "8f7c12b2-ecb0-4932-8fe1-f7b31092b038": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AVA_LF_DSP_1.jpg",
-            "link": "",
-            "title": "Angels & Airwaves",
-            "subtitle": "Lifeforms"
-          }
-        },
-        "4be95cf3-30fa-416c-a111-11a6c8cb236f": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MRCI_SBTLFCTN_4000x4000_3.jpg",
-            "link": "",
-            "title": "Merci",
-            "subtitle": "Subtle Fiction"
+            "image": "shopify:\/\/shop_images\/CRCASRV_ADAD_4000x4000_1_efd67423-af8d-42a8-ab17-37cb9b48570b.jpg",
+            "link": "shopify:\/\/collections\/circa-survive",
+            "title": "Circa Survive",
+            "subtitle": "A Dream About Death"
           }
         },
         "0c9f1423-7f99-4596-bd47-3c50b9029b6e": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AFI_Bodies_Cover_Std_1500px.jpg",
-            "link": "shopify:\/\/collections\/artist-afi",
-            "title": "AFI",
-            "subtitle": "bodies"
+            "image": "shopify:\/\/shop_images\/final_caved_in_artwork_3000x3000px_1_f62367ef-c4bc-4be8-a92c-cb1d4f09d62e.jpg",
+            "link": "shopify:\/\/collections\/artist-spite",
+            "title": "Spite",
+            "subtitle": "Caved In"
+          }
+        },
+        "4be95cf3-30fa-416c-a111-11a6c8cb236f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MRCI_SBTLFCTN-2_4000x4000_1_copy_1_6317530c-84c0-4aa8-bbeb-6691b5648c55.jpg",
+            "link": "shopify:\/\/collections\/artist-merci",
+            "title": "Merci",
+            "subtitle": "Subtle Fiction II"
           }
         }
       },
@@ -128,8 +128,8 @@
         "01ad7d25-3458-4818-a7ee-4bb9c97a68ac",
         "e2076de2-ab26-4f92-9f68-ec388da9edb9",
         "8f7c12b2-ecb0-4932-8fe1-f7b31092b038",
-        "4be95cf3-30fa-416c-a111-11a6c8cb236f",
-        "0c9f1423-7f99-4596-bd47-3c50b9029b6e"
+        "0c9f1423-7f99-4596-bd47-3c50b9029b6e",
+        "4be95cf3-30fa-416c-a111-11a6c8cb236f"
       ],
       "settings": {
         "title": "Latest Releases"
@@ -167,10 +167,10 @@
             "heading": "OFFICIAL STORE",
             "textarea": "Shop official merch from all Rise Records artists",
             "cta_text1": "Shop All",
-            "cta_link1": "shopify:\/\/collections\/shop-all",
+            "cta_link1": "shopify:\/\/pages\/shop-all",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/272225986_112919257950504_5801499332998823605_n.jpg",
+            "image": "shopify:\/\/shop_images\/118635729_365369297802361_6228286367341964261_n.jpg",
             "video_url": "",
             "width": "50",
             "height": 600,
@@ -197,27 +197,11 @@
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
-        "featured-collections-2": {
+        "846cddce-0f10-4d24-b51c-5a5b679fd797": {
           "type": "collection",
           "settings": {
-            "collection": "artist-pup",
-            "title": "PUP",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "artist-mayday-parade-1",
-            "title": "Mayday Parade",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "artist-crown-the-empire",
-            "title": "Crown The Empire",
+            "collection": "artist-angels-airwaves",
+            "title": "Angels & Airwaves",
             "focal_point": "center center"
           }
         },
@@ -229,6 +213,46 @@
             "focal_point": "center center"
           }
         },
+        "6c948df0-10fe-4b8a-b4fd-126e64173836": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-dance-gavin-dance",
+            "title": "Dance Gavin Dance",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-kublai-khan",
+            "title": "Kublai Khan",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-memphis-may-fire",
+            "title": "Memphis May Fire",
+            "focal_point": "center center"
+          }
+        },
+        "8648ea9a-28d6-4e78-8785-08b660dee969": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-mothica",
+            "title": "Mothica",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-pup",
+            "title": "PUP",
+            "focal_point": "center center"
+          }
+        },
         "438d8a45-b09e-4ba5-8535-db98e6e9c6a2": {
           "type": "collection",
           "settings": {
@@ -236,41 +260,17 @@
             "title": "Spiritbox",
             "focal_point": "center center"
           }
-        },
-        "6c948df0-10fe-4b8a-b4fd-126e64173836": {
-          "type": "collection",
-          "settings": {
-            "collection": "artist-afi",
-            "title": "AFI",
-            "focal_point": "center center"
-          }
-        },
-        "846cddce-0f10-4d24-b51c-5a5b679fd797": {
-          "type": "collection",
-          "settings": {
-            "collection": "artist-angels-airwaves-1",
-            "title": "Angels & Airwaves",
-            "focal_point": "center center"
-          }
-        },
-        "8648ea9a-28d6-4e78-8785-08b660dee969": {
-          "type": "collection",
-          "settings": {
-            "collection": "artist-chapel-1",
-            "title": "Chapel",
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
-        "featured-collections-2",
-        "featured-collections-1",
-        "featured-collections-0",
-        "featured-collections-3",
-        "438d8a45-b09e-4ba5-8535-db98e6e9c6a2",
-        "6c948df0-10fe-4b8a-b4fd-126e64173836",
         "846cddce-0f10-4d24-b51c-5a5b679fd797",
-        "8648ea9a-28d6-4e78-8785-08b660dee969"
+        "featured-collections-3",
+        "6c948df0-10fe-4b8a-b4fd-126e64173836",
+        "featured-collections-0",
+        "featured-collections-1",
+        "8648ea9a-28d6-4e78-8785-08b660dee969",
+        "featured-collections-2",
+        "438d8a45-b09e-4ba5-8535-db98e6e9c6a2"
       ],
       "settings": {
         "title": "Featured Artists",
@@ -302,6 +302,7 @@
     },
     "164317443666ffbbca": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16431744362cee373b-0": {
           "type": "heading",
@@ -370,7 +371,39 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true
+        "space_around": false
+      }
+    },
+    "16459093687ef05b31": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "1645909368a2c9a464-0": {
+          "type": "title",
+          "settings": {
+            "title": "Stay Updated."
+          }
+        },
+        "1645909368a2c9a464-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "1645909368a2c9a464-2": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "1645909368a2c9a464-0",
+        "1645909368a2c9a464-1",
+        "1645909368a2c9a464-2"
+      ],
+      "settings": {
+        "color_background": "#1c1d1d",
+        "color_text": "#ffffff"
       }
     }
   },
@@ -382,6 +415,7 @@
     "1643174220e81a5092",
     "164317443666ffbbca",
     "1642540727a003d2ee",
-    "16431418316cffa8c4"
+    "16431418316cffa8c4",
+    "16459093687ef05b31"
   ]
 }

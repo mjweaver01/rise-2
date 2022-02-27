@@ -40,22 +40,69 @@
       "disabled": true,
       "settings": {}
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "16457335045d394ce4": {
+      "type": "promo-grid",
+      "blocks": {
+        "1645733503439dac41-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "SHOP VINYL",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Vinyl-DGD-lifestyle.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 580,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-left",
+            "focal_point": "center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "1645733503439dac41-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "SHOP MERCH",
+            "cta_link1": "shopify:\/\/pages\/shop-apparel",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/118635729_365369297802361_6228286367341964261_n.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 580,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-left",
+            "focal_point": "top",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "1645733503439dac41-0",
+        "1645733503439dac41-1"
+      ],
       "settings": {
-        "title": "Shop Best Sellers",
-        "home_featured_products": "best-sellers",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": true
+        "full_width": true,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true
       }
     }
   },
   "order": [
     "1644453711b73bb7df",
     "main",
-    "featured-collection"
+    "16457335045d394ce4"
   ]
 }

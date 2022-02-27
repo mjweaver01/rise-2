@@ -35,7 +35,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Headwear",
-        "home_featured_products": "hat",
+        "home_featured_products": "headwear",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -87,7 +87,7 @@
             "heading": "",
             "textarea": "",
             "cta_text1": "Shop Bags",
-            "cta_link1": "",
+            "cta_link1": "shopify:\/\/collections\/bags",
             "cta_text2": "",
             "cta_link2": "",
             "image": "shopify:\/\/shop_images\/Rise-accessories-lifestyle.jpg",
@@ -118,7 +118,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Jewlery",
-        "home_featured_products": "jewelery",
+        "home_featured_products": "jewelry",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,

@@ -266,6 +266,25 @@
                         {%- endfor -%}
                       {%- endunless -%}
                     </div>
+              
+               <!-- PREORDER SECTION 2 -->
+        {% if product.metafields.MerchNext-Shopify.IsPreorder %}
+			<b class="preOrder-shipdate">SHIPPING NOTICE: This is a presale item set to ship around {{ product.metafields.MerchNext-Shopify.PreOrderDate | date: "%m/%d/%Y" | replace: "12:00:00 AM", " " }}  </b>
+              <br>
+              <br>
+            {% endif %}
+        
+	<!-- POSTER TUBE NOTICE -->
+		  {% if product.type == 'Poster' and product.variants.first.sku != "MCN0POST00-PS00" %}
+        	<b class="preOrder-shipdate" style="margin-bottom: 1rem;">
+            *** <a style="text-decoration: underline;" href="/products/mcn0post00-ps00"> 
+            Add a Poster Tube for your poster.</a> Posters without a tube will be FOLDED when shipped. ***
+            </b>
+              <br>
+              <br>
+          {% endif %}
+            
+              
                   {%- when 'buy_buttons' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {%- unless product.empty? -%}

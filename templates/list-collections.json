@@ -10,10 +10,10 @@
         "grid": "4"
       }
     },
-    "16426099801f437150": {
+    "16458328835c2ccc00": {
       "type": "featured-collections",
       "blocks": {
-        "16426099804fec24dd-0": {
+        "164583288341df9b6f-0": {
           "type": "collection",
           "settings": {
             "collection": "artist-the-acacia-strain",
@@ -21,7 +21,7 @@
             "focal_point": "center center"
           }
         },
-        "16426099804fec24dd-1": {
+        "164583288341df9b6f-1": {
           "type": "collection",
           "settings": {
             "collection": "artist-afi",
@@ -29,31 +29,31 @@
             "focal_point": "center center"
           }
         },
-        "16426099804fec24dd-2": {
+        "164583288341df9b6f-2": {
           "type": "collection",
           "settings": {
-            "collection": "american-nightmare",
-            "title": "AMERICAN NIGHTMARE",
+            "collection": "artist-american-nightmare",
+            "title": "American Nightmare",
             "focal_point": "center center"
           }
         },
-        "16426099804fec24dd-3": {
+        "164583288341df9b6f-3": {
           "type": "collection",
           "settings": {
             "collection": "artist-angels-airwaves",
             "title": "ANGELS & AIRWAVES",
-            "focal_point": "bottom center"
+            "focal_point": "center center"
           }
         },
-        "a0e56029-1db0-47bd-8b98-4cdac8a78d18": {
+        "b73ec9b2-26bd-4551-85bc-7e61a55bd146": {
           "type": "collection",
           "settings": {
-            "collection": "artist-at-the-drive-in-1",
+            "collection": "artist-at-the-drive-in",
             "title": "AT THE DRIVE IN",
             "focal_point": "center center"
           }
         },
-        "f7870956-e3bf-4f89-8fe3-f852638632fb": {
+        "f9095070-7fdb-4ada-ada1-33fea5d4ee43": {
           "type": "collection",
           "settings": {
             "collection": "artist-black-peaks",
@@ -61,7 +61,7 @@
             "focal_point": "center center"
           }
         },
-        "7f67a147-4d71-44ed-870e-564e3e0f5293": {
+        "bd6a4c39-3200-48c7-bd3f-0e94eede084e": {
           "type": "collection",
           "settings": {
             "collection": "artist-blessthefall",
@@ -69,7 +69,7 @@
             "focal_point": "center center"
           }
         },
-        "fe0d79ab-0b34-447e-80c1-9c476cfb1686": {
+        "82632eae-d779-40be-9745-fdca9f3d7ad5": {
           "type": "collection",
           "settings": {
             "collection": "artist-bloodbather",
@@ -77,7 +77,7 @@
             "focal_point": "center center"
           }
         },
-        "609e58e7-d2df-41e6-8c2e-f9c8dcd71742": {
+        "ba9dafa8-4e9f-4553-8e8e-6216a7a38826": {
           "type": "collection",
           "settings": {
             "collection": "artist-chapel",
@@ -85,7 +85,7 @@
             "focal_point": "center center"
           }
         },
-        "c3ab2c84-bd75-40fa-a140-2b244f1355c7": {
+        "71adb704-6e24-46a7-b0d1-d21b58979301": {
           "type": "collection",
           "settings": {
             "collection": "circa-survive",
@@ -93,7 +93,7 @@
             "focal_point": "center center"
           }
         },
-        "20e2f163-4cfd-4398-84e0-8c0824c397a5": {
+        "237fcf67-378d-48b6-97de-5f5d745fca2c": {
           "type": "collection",
           "settings": {
             "collection": "artist-clint-lowery",
@@ -101,7 +101,7 @@
             "focal_point": "center center"
           }
         },
-        "611f6758-39f8-4baf-8732-1ea6e150822f": {
+        "d6b9512b-5d7a-4563-8501-82828b4bae65": {
           "type": "collection",
           "settings": {
             "collection": "artist-cold-collective",
@@ -111,21 +111,21 @@
         }
       },
       "block_order": [
-        "16426099804fec24dd-0",
-        "16426099804fec24dd-1",
-        "16426099804fec24dd-2",
-        "16426099804fec24dd-3",
-        "a0e56029-1db0-47bd-8b98-4cdac8a78d18",
-        "f7870956-e3bf-4f89-8fe3-f852638632fb",
-        "7f67a147-4d71-44ed-870e-564e3e0f5293",
-        "fe0d79ab-0b34-447e-80c1-9c476cfb1686",
-        "609e58e7-d2df-41e6-8c2e-f9c8dcd71742",
-        "c3ab2c84-bd75-40fa-a140-2b244f1355c7",
-        "20e2f163-4cfd-4398-84e0-8c0824c397a5",
-        "611f6758-39f8-4baf-8732-1ea6e150822f"
+        "164583288341df9b6f-0",
+        "164583288341df9b6f-1",
+        "164583288341df9b6f-2",
+        "164583288341df9b6f-3",
+        "b73ec9b2-26bd-4551-85bc-7e61a55bd146",
+        "f9095070-7fdb-4ada-ada1-33fea5d4ee43",
+        "bd6a4c39-3200-48c7-bd3f-0e94eede084e",
+        "82632eae-d779-40be-9745-fdca9f3d7ad5",
+        "ba9dafa8-4e9f-4553-8e8e-6216a7a38826",
+        "71adb704-6e24-46a7-b0d1-d21b58979301",
+        "237fcf67-378d-48b6-97de-5f5d745fca2c",
+        "d6b9512b-5d7a-4563-8501-82828b4bae65"
       ],
       "settings": {
-        "title": "Active Roster",
+        "title": "",
         "divider": false,
         "per_row": 4,
         "enable_gutter": true,
@@ -170,7 +170,7 @@
         "9ecb12bc-04c1-4f7b-bb1d-79c8ca1f887e": {
           "type": "collection",
           "settings": {
-            "collection": "artist-derek-sanders-1",
+            "collection": "artist-derek-sanders",
             "title": "DEREK SANDERS",
             "focal_point": "center center"
           }
@@ -186,7 +186,7 @@
         "96b29860-ffae-49c4-8fc3-14f354a7a6f4": {
           "type": "collection",
           "settings": {
-            "collection": "the-early-november",
+            "collection": "artist-the-early-november",
             "title": "THE EARLY NOVEMBER",
             "focal_point": "center center"
           }
@@ -210,7 +210,7 @@
         "cfb0d8c0-d58e-480a-956a-66ea9ff6932a": {
           "type": "collection",
           "settings": {
-            "collection": "galactic-empire",
+            "collection": "artist-galactic-empire",
             "title": "GALACTIC EMPIRE",
             "focal_point": "center center"
           }
@@ -218,7 +218,7 @@
         "cb690109-813c-489e-984d-d648904e6f16": {
           "type": "collection",
           "settings": {
-            "collection": "gone-is-gone",
+            "collection": "artist-gone-is-gone",
             "title": "GONE IS GONE",
             "focal_point": "center center"
           }
@@ -308,7 +308,7 @@
         "5bf39564-59e2-4ac1-80dd-02340c45b3b3": {
           "type": "collection",
           "settings": {
-            "collection": "mayday-parade",
+            "collection": "artist-mayday-parade",
             "title": "MAYDAY PARADE",
             "focal_point": "center center"
           }
@@ -438,7 +438,7 @@
         "812204fe-fc61-47c2-a9bc-73e317b6633a": {
           "type": "collection",
           "settings": {
-            "collection": "thousand-below",
+            "collection": "artist-thousand-below",
             "title": "THOUSAND BELOW",
             "focal_point": "center center"
           }
@@ -446,7 +446,7 @@
         "d1a40513-12d3-4a47-9be2-7be7ed79607e": {
           "type": "collection",
           "settings": {
-            "collection": "tiger-army",
+            "collection": "artist-tiger-army",
             "title": "TIGER ARMY",
             "focal_point": "center center"
           }
@@ -483,44 +483,116 @@
     "16434170143e7c4321": {
       "type": "featured-collections",
       "blocks": {
-        "1643417014f398afda-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "artist-sleeping-with-sirens",
-            "title": "Sleeping With Sirens",
-            "focal_point": "center center"
-          }
-        },
         "1643417014f398afda-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": "",
+            "collection": "artist-7-seconds",
+            "title": "7 Seconds",
             "focal_point": "center center"
           }
         },
         "1643417014f398afda-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": "",
+            "collection": "artist-a-different-breed-of-killer",
+            "title": "A Different Breed of Killer",
             "focal_point": "center center"
           }
         },
         "1643417014f398afda-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": "",
+            "collection": "artist-abandon-all-ships",
+            "title": "Abandon All Ships",
+            "focal_point": "center center"
+          }
+        },
+        "f187a67d-3dfd-4aed-89ef-cba4289a9b90": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-acceptance",
+            "title": "acceptance",
+            "focal_point": "center center"
+          }
+        },
+        "b4210187-a1db-45bf-8d33-fd01f41dba98": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-american-me",
+            "title": "American Me",
+            "focal_point": "center center"
+          }
+        },
+        "63908ad3-5201-45d9-bb5f-055795623125": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-anatomy-of-a-ghost",
+            "title": "Anatomy of A Ghost",
+            "focal_point": "center center"
+          }
+        },
+        "7b9321ff-7ae0-4fe8-9ef8-fb017086812a": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-arlington",
+            "title": "Arlington",
+            "focal_point": "center center"
+          }
+        },
+        "45bd727c-dc3a-45d9-ada1-1d4c4ec3cfe4": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-attack-attack-2",
+            "title": "Attack Attack!",
+            "focal_point": "center center"
+          }
+        },
+        "25000c61-353b-474b-ba6e-f5e8bccab6cd": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-at-the-throne-of-judgment",
+            "title": "At The Throne of Judgement",
+            "focal_point": "center center"
+          }
+        },
+        "63d3e08e-ad83-494a-91cb-6ab001d6e487": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-before-their-eyes",
+            "title": "Before Their Eyes",
+            "focal_point": "center center"
+          }
+        },
+        "13a50369-2021-4eed-9182-b513b0cfbc5f": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-bl-ast",
+            "title": "BL'AST!",
+            "focal_point": "center center"
+          }
+        },
+        "70fbd3c3-035b-448c-bcf7-4d971995fb40": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-bleach-blonde",
+            "title": "Bleach Blonde",
             "focal_point": "center center"
           }
         }
       },
       "block_order": [
-        "1643417014f398afda-0",
         "1643417014f398afda-1",
         "1643417014f398afda-2",
-        "1643417014f398afda-3"
+        "1643417014f398afda-3",
+        "f187a67d-3dfd-4aed-89ef-cba4289a9b90",
+        "b4210187-a1db-45bf-8d33-fd01f41dba98",
+        "63908ad3-5201-45d9-bb5f-055795623125",
+        "7b9321ff-7ae0-4fe8-9ef8-fb017086812a",
+        "45bd727c-dc3a-45d9-ada1-1d4c4ec3cfe4",
+        "25000c61-353b-474b-ba6e-f5e8bccab6cd",
+        "63d3e08e-ad83-494a-91cb-6ab001d6e487",
+        "13a50369-2021-4eed-9182-b513b0cfbc5f",
+        "70fbd3c3-035b-448c-bcf7-4d971995fb40"
       ],
       "settings": {
         "title": "Alumni",
@@ -536,32 +608,96 @@
         "1643509779147b82a0-0": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": "",
+            "collection": "artist-bleeding-through",
+            "title": "Bleeding Through",
             "focal_point": "center center"
           }
         },
         "1643509779147b82a0-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": "",
+            "collection": "artist-blindwish",
+            "title": "Blindwish",
             "focal_point": "center center"
           }
         },
         "1643509779147b82a0-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": "",
+            "collection": "artist-bouncing-souls",
+            "title": "Bouncing Souls",
             "focal_point": "center center"
           }
         },
         "1643509779147b82a0-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": "",
+            "collection": "artist-breathe-carolina",
+            "title": "Breathe Carolina",
+            "focal_point": "center center"
+          }
+        },
+        "c4d1483c-904a-4fad-8cfb-0a4ab89d4e6a": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-burden-of-a-day",
+            "title": "Burden of a Day",
+            "focal_point": "center center"
+          }
+        },
+        "a19e51d7-a676-4144-9b1d-161fce9c26bf": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-cane-hill",
+            "title": "Cane Hill",
+            "focal_point": "center center"
+          }
+        },
+        "692b8dd3-aeb0-437b-93b4-883297e02841": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-catherine",
+            "title": "Catherine",
+            "focal_point": "center center"
+          }
+        },
+        "f16742ac-0f28-421c-8f37-e2fac4a6f641": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-cheap-girls",
+            "title": "Cheap Girls",
+            "focal_point": "center center"
+          }
+        },
+        "1c433a20-6d15-4e9a-8bb7-ce3eb9049ae2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-chelsea-grin",
+            "title": "Chelsea Grin",
+            "focal_point": "center center"
+          }
+        },
+        "febb86bf-871d-4803-84c5-9dc0c9f54f51": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-cockpunch",
+            "title": "Cockpunch",
+            "focal_point": "center center"
+          }
+        },
+        "52b84ff6-9f3a-4e18-bc07-d1f411258554": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-dangerkids",
+            "title": "Dangerkids",
+            "focal_point": "center center"
+          }
+        },
+        "d236a4ed-3d70-4633-8fff-c65c6c52c92a": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-daytrader",
+            "title": "Daytrader",
             "focal_point": "center center"
           }
         }
@@ -570,7 +706,666 @@
         "1643509779147b82a0-0",
         "1643509779147b82a0-1",
         "1643509779147b82a0-2",
-        "1643509779147b82a0-3"
+        "1643509779147b82a0-3",
+        "c4d1483c-904a-4fad-8cfb-0a4ab89d4e6a",
+        "a19e51d7-a676-4144-9b1d-161fce9c26bf",
+        "692b8dd3-aeb0-437b-93b4-883297e02841",
+        "f16742ac-0f28-421c-8f37-e2fac4a6f641",
+        "1c433a20-6d15-4e9a-8bb7-ce3eb9049ae2",
+        "febb86bf-871d-4803-84c5-9dc0c9f54f51",
+        "52b84ff6-9f3a-4e18-bc07-d1f411258554",
+        "d236a4ed-3d70-4633-8fff-c65c6c52c92a"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true,
+        "bottom_margin": false
+      }
+    },
+    "16450329389f13e618": {
+      "type": "featured-collections",
+      "blocks": {
+        "1645032938de99bdc4-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-defeat-the-low",
+            "title": "Defeat The Low",
+            "focal_point": "center center"
+          }
+        },
+        "1645032938de99bdc4-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-drop-dead-gorgeous",
+            "title": "Drop Dead Gorgeous",
+            "focal_point": "center center"
+          }
+        },
+        "1645032938de99bdc4-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-eighteen-visions",
+            "title": "Eighteen Visions",
+            "focal_point": "center center"
+          }
+        },
+        "1645032938de99bdc4-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-emarosa",
+            "title": "Emarosa",
+            "focal_point": "center center"
+          }
+        },
+        "f5677fc4-da30-4004-bb15-247b6ef90aa2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-emilys-army",
+            "title": "Emily's Army",
+            "focal_point": "center center"
+          }
+        },
+        "52a5d528-2b28-42cc-a6df-7a4915475039": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-evergreen-terrace",
+            "title": "Evergreen Terrace",
+            "focal_point": "center center"
+          }
+        },
+        "7027144d-cd0d-4eec-8255-4ed5b86ba1b6": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-every-bridge-burned",
+            "title": "Every Bridge Burned",
+            "focal_point": "center center"
+          }
+        },
+        "d23211fc-29c5-4ec3-9961-e78d37ee92ec": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-face-to-face",
+            "title": "Face To Face",
+            "focal_point": "center center"
+          }
+        },
+        "c49f1e83-7e78-419a-a164-fcdd83533a8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-fear-before",
+            "title": "Fear Before",
+            "focal_point": "center center"
+          }
+        },
+        "f3d45b08-2dac-4a71-b1a0-ac4d5b0d37ec": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-fire-from-the-gods",
+            "title": "Fire From The Gods",
+            "focal_point": "center center"
+          }
+        },
+        "54ed2f91-a08e-4f11-b1b8-330f62fbc48e": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-for-the-fallen-dreams",
+            "title": "For The Fallen Dreams",
+            "focal_point": "center center"
+          }
+        },
+        "311c806e-7d22-4dac-89bc-afd361fa5bb8": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-from-first-to-last",
+            "title": "From First To Last",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1645032938de99bdc4-0",
+        "1645032938de99bdc4-1",
+        "1645032938de99bdc4-2",
+        "1645032938de99bdc4-3",
+        "f5677fc4-da30-4004-bb15-247b6ef90aa2",
+        "52a5d528-2b28-42cc-a6df-7a4915475039",
+        "7027144d-cd0d-4eec-8255-4ed5b86ba1b6",
+        "d23211fc-29c5-4ec3-9961-e78d37ee92ec",
+        "c49f1e83-7e78-419a-a164-fcdd83533a8e",
+        "f3d45b08-2dac-4a71-b1a0-ac4d5b0d37ec",
+        "54ed2f91-a08e-4f11-b1b8-330f62fbc48e",
+        "311c806e-7d22-4dac-89bc-afd361fa5bb8"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true,
+        "bottom_margin": false
+      }
+    },
+    "1645032972585be3f1": {
+      "type": "featured-collections",
+      "blocks": {
+        "1645032972ebd58f8f-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-further-seems-forever",
+            "title": "Further Seems Forever",
+            "focal_point": "center center"
+          }
+        },
+        "1645032972ebd58f8f-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-goldfinger",
+            "title": "Goldfinger",
+            "focal_point": "center center"
+          }
+        },
+        "1645032972ebd58f8f-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-gone-is-gone",
+            "title": "Gone Is Gone",
+            "focal_point": "center center"
+          }
+        },
+        "1645032972ebd58f8f-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-hands-like-houses",
+            "title": "Hands Like Houses",
+            "focal_point": "center center"
+          }
+        },
+        "f882ac12-0e2a-4acd-9ca8-f46943b4d10a": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-honour-crest",
+            "title": "Honour Crest",
+            "focal_point": "center center"
+          }
+        },
+        "6661e496-2920-44c9-acd8-27176f688673": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-hot-water-music",
+            "title": "Hot Water Music",
+            "focal_point": "center center"
+          }
+        },
+        "4908e12b-361c-4889-bcd6-d487e88c1903": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-in-fear-and-faith",
+            "title": "In Fear And Faith",
+            "focal_point": "center center"
+          }
+        },
+        "fa0bef0f-fcaa-4797-82f9-efcda315e03a": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-in-hearts-wake",
+            "title": "In Hearts Wake",
+            "focal_point": "center center"
+          }
+        },
+        "2d74aa96-ffc4-4be4-9723-d320c95eaaf3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-issues",
+            "title": "Issues",
+            "focal_point": "center center"
+          }
+        },
+        "591ba74c-3b1a-4eb6-a658-b58ca62b52c6": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-it-prevails",
+            "title": "It Prevails",
+            "focal_point": "center center"
+          }
+        },
+        "e215b54d-0ca9-4e27-be8c-49f454b04a61": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-like-moths-to-flames",
+            "title": "Like Moths To Flames",
+            "focal_point": "center center"
+          }
+        },
+        "6a93d3b8-398d-4b35-a742-672b255da56c": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-make-do-mend",
+            "title": "Make Do & Mend",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1645032972ebd58f8f-0",
+        "1645032972ebd58f8f-1",
+        "1645032972ebd58f8f-2",
+        "1645032972ebd58f8f-3",
+        "f882ac12-0e2a-4acd-9ca8-f46943b4d10a",
+        "6661e496-2920-44c9-acd8-27176f688673",
+        "4908e12b-361c-4889-bcd6-d487e88c1903",
+        "fa0bef0f-fcaa-4797-82f9-efcda315e03a",
+        "2d74aa96-ffc4-4be4-9723-d320c95eaaf3",
+        "591ba74c-3b1a-4eb6-a658-b58ca62b52c6",
+        "e215b54d-0ca9-4e27-be8c-49f454b04a61",
+        "6a93d3b8-398d-4b35-a742-672b255da56c"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true,
+        "bottom_margin": false
+      }
+    },
+    "1645032983ec0ee647": {
+      "type": "featured-collections",
+      "blocks": {
+        "16450329832e48dbec-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-man-overboard",
+            "title": "Man Overboard",
+            "focal_point": "center center"
+          }
+        },
+        "16450329832e48dbec-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-matty-mullins",
+            "title": "Matty Mullins",
+            "focal_point": "center center"
+          }
+        },
+        "16450329832e48dbec-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-miss-may-i",
+            "title": "Miss May I",
+            "focal_point": "center center"
+          }
+        },
+        "16450329832e48dbec-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-misser",
+            "title": "Misser",
+            "focal_point": "center center"
+          }
+        },
+        "78c4341e-83a5-4c50-9da1-aa7a8581f6c2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-my-ticket-home",
+            "title": "My Ticket Home",
+            "focal_point": "center center"
+          }
+        },
+        "59d463ff-58b5-447f-accd-b7010cf98c8a": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-northlane",
+            "title": "Northlane",
+            "focal_point": "center center"
+          }
+        },
+        "115c5ef8-7435-42a3-ae5e-a9762ad656a8": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-oceana",
+            "title": "Oceana",
+            "focal_point": "center center"
+          }
+        },
+        "176bc1e0-2c96-41e4-b19e-e972634a9352": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-of-machines",
+            "title": "Of Machines",
+            "focal_point": "center center"
+          }
+        },
+        "b8f5b8d2-a3de-4512-ae08-50b93b67ac01": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-of-mice-men",
+            "title": "Of Mice & Men",
+            "focal_point": "center center"
+          }
+        },
+        "55005b57-9390-4c9a-8657-1c65abcc4288": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-only-crime",
+            "title": "Only Crime",
+            "focal_point": "center center"
+          }
+        },
+        "6fc5a88c-a456-4117-ba66-132ebb34be09": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-piebald",
+            "title": "Piebald",
+            "focal_point": "center center"
+          }
+        },
+        "e5796523-d1f9-4dd8-8a32-fb4b6b1bc414": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-poison-the-well",
+            "title": "Poison The Well",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16450329832e48dbec-0",
+        "16450329832e48dbec-1",
+        "16450329832e48dbec-2",
+        "16450329832e48dbec-3",
+        "78c4341e-83a5-4c50-9da1-aa7a8581f6c2",
+        "59d463ff-58b5-447f-accd-b7010cf98c8a",
+        "115c5ef8-7435-42a3-ae5e-a9762ad656a8",
+        "176bc1e0-2c96-41e4-b19e-e972634a9352",
+        "b8f5b8d2-a3de-4512-ae08-50b93b67ac01",
+        "55005b57-9390-4c9a-8657-1c65abcc4288",
+        "6fc5a88c-a456-4117-ba66-132ebb34be09",
+        "e5796523-d1f9-4dd8-8a32-fb4b6b1bc414"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true,
+        "bottom_margin": false
+      }
+    },
+    "1645033006f1c644e0": {
+      "type": "featured-collections",
+      "blocks": {
+        "1645033006b15bdf5e-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-polar-bear-club",
+            "title": "Polar Bear Club",
+            "focal_point": "center center"
+          }
+        },
+        "1645033006b15bdf5e-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-pmtoday",
+            "title": "PMTODAY",
+            "focal_point": "center center"
+          }
+        },
+        "1645033006b15bdf5e-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-pvris",
+            "title": "PVRIS",
+            "focal_point": "center center"
+          }
+        },
+        "1645033006b15bdf5e-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-rescuer",
+            "title": "Rescuer",
+            "focal_point": "center center"
+          }
+        },
+        "ff490ad1-9130-4ace-98b5-23400073b236": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-scarlett-ohara",
+            "title": "Scarlett O'Hara",
+            "focal_point": "center center"
+          }
+        },
+        "fd86f720-7e44-480a-8ad1-fad9ec5e72ec": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-secrets",
+            "title": "SECRETS",
+            "focal_point": "center center"
+          }
+        },
+        "ad8e62fc-c87a-4559-91c8-deee0f704223": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-sharks",
+            "title": "Sharks",
+            "focal_point": "center center"
+          }
+        },
+        "1c417762-76dd-4519-a03b-399956721f24": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-silverstein",
+            "title": "Silverstein",
+            "focal_point": "center center"
+          }
+        },
+        "a323bb4c-8a75-49d1-b745-4a3cdb0d18f3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-sleeping-with-sirens",
+            "title": "Sleeping With Sirens",
+            "focal_point": "center center"
+          }
+        },
+        "55eec8fa-b31a-4c8b-82a0-c8baf4fdbe70": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-teenage-bottlerocket",
+            "title": "Teenage Bottlerocket",
+            "focal_point": "center center"
+          }
+        },
+        "36606054-d701-4f04-915d-f4f93af284ff": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-teenage-time-killers",
+            "title": "Teenage Time Killers",
+            "focal_point": "center center"
+          }
+        },
+        "898ac916-ae63-4f93-bd61-b2a434056223": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-ten-after-two",
+            "title": "Ten After Two",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1645033006b15bdf5e-0",
+        "1645033006b15bdf5e-1",
+        "1645033006b15bdf5e-2",
+        "1645033006b15bdf5e-3",
+        "ff490ad1-9130-4ace-98b5-23400073b236",
+        "fd86f720-7e44-480a-8ad1-fad9ec5e72ec",
+        "ad8e62fc-c87a-4559-91c8-deee0f704223",
+        "1c417762-76dd-4519-a03b-399956721f24",
+        "a323bb4c-8a75-49d1-b745-4a3cdb0d18f3",
+        "55eec8fa-b31a-4c8b-82a0-c8baf4fdbe70",
+        "36606054-d701-4f04-915d-f4f93af284ff",
+        "898ac916-ae63-4f93-bd61-b2a434056223"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true,
+        "bottom_margin": false
+      }
+    },
+    "1645033011a5027f30": {
+      "type": "featured-collections",
+      "blocks": {
+        "16450330118d34b424-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-the-air-i-breathe",
+            "title": "The Air I Breathe",
+            "focal_point": "center center"
+          }
+        },
+        "16450330118d34b424-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-the-bled",
+            "title": "The Bled",
+            "focal_point": "center center"
+          }
+        },
+        "16450330118d34b424-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-the-color-morale",
+            "title": "The Color Morale",
+            "focal_point": "center center"
+          }
+        },
+        "16450330118d34b424-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-the-devil-wears-prada",
+            "title": "The Devil Wears Prada",
+            "focal_point": "center center"
+          }
+        },
+        "834332da-d697-4907-a0d5-8400b943e18b": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-the-early-november",
+            "title": "The Early November",
+            "focal_point": "center center"
+          }
+        },
+        "169af30e-ac8a-4385-9083-01a9e0cd1791": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-the-flatliners",
+            "title": "The Flatliners",
+            "focal_point": "center center"
+          }
+        },
+        "92642da7-bde4-41b4-8d38-d12be93fb57f": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-the-jealous-sound",
+            "title": "The Jealous Sound",
+            "focal_point": "center center"
+          }
+        },
+        "bc559ba7-30c8-4ba2-9851-1928fb972063": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-the-movielife",
+            "title": "The Movielife",
+            "focal_point": "center center"
+          }
+        },
+        "824a820e-9699-473b-9b7b-7a855d0c9472": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-the-plot-in-you",
+            "title": "The Plot In You",
+            "focal_point": "center center"
+          }
+        },
+        "e30c3fb1-c111-487c-98fa-58d3d4d2b09b": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-this-is-hell",
+            "title": "This Is Hell",
+            "focal_point": "center center"
+          }
+        },
+        "0d0d3f7a-c01a-4ec0-920c-e7f1ad213c46": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-those-who-lie-beneath",
+            "title": "Those Who Lie Beneath",
+            "focal_point": "center center"
+          }
+        },
+        "53a20f6a-0a2f-4155-b5b0-3b90624cdfb5": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-tides-of-man",
+            "title": "Tides Of Man",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16450330118d34b424-0",
+        "16450330118d34b424-1",
+        "16450330118d34b424-2",
+        "16450330118d34b424-3",
+        "834332da-d697-4907-a0d5-8400b943e18b",
+        "169af30e-ac8a-4385-9083-01a9e0cd1791",
+        "92642da7-bde4-41b4-8d38-d12be93fb57f",
+        "bc559ba7-30c8-4ba2-9851-1928fb972063",
+        "824a820e-9699-473b-9b7b-7a855d0c9472",
+        "e30c3fb1-c111-487c-98fa-58d3d4d2b09b",
+        "0d0d3f7a-c01a-4ec0-920c-e7f1ad213c46",
+        "53a20f6a-0a2f-4155-b5b0-3b90624cdfb5"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true,
+        "bottom_margin": false
+      }
+    },
+    "16450330179ec35461": {
+      "type": "featured-collections",
+      "blocks": {
+        "164503301766d8aac9-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-transit",
+            "title": "Transit",
+            "focal_point": "center center"
+          }
+        },
+        "164503301766d8aac9-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-t-s-o-l",
+            "title": "T.S.O.L.",
+            "focal_point": "center center"
+          }
+        },
+        "164503301766d8aac9-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "artist-woe-is-me",
+            "title": "Woe, Is Me",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "164503301766d8aac9-0",
+        "164503301766d8aac9-1",
+        "164503301766d8aac9-2"
       ],
       "settings": {
         "title": "",
@@ -583,11 +1378,17 @@
   },
   "order": [
     "main",
-    "16426099801f437150",
+    "16458328835c2ccc00",
     "1642613127776c7a30",
     "16426143527b3361a6",
     "16426151690d31f089",
     "16434170143e7c4321",
-    "1643509779721119bd"
+    "1643509779721119bd",
+    "16450329389f13e618",
+    "1645032972585be3f1",
+    "1645032983ec0ee647",
+    "1645033006f1c644e0",
+    "1645033011a5027f30",
+    "16450330179ec35461"
   ]
 }

@@ -64,6 +64,9 @@
               <div class="grid grid--uniform" data-aos="overflow__animation">
                 {% assign count = 0 %}
                 {%- for product in related_collection.products -%}
+                  {%- comment %}<locksmith:1531>{% endcomment -%}
+                    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: related_collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                  {%- comment %}</locksmith:1531>{% endcomment -%}
                   {%- if product.vendor != 'Route' and count < grid_count -%}
                     {%- assign count = count | plus: 1 -%}
                     {%- render 'product-grid-item',

@@ -73,14 +73,15 @@
     "share_facebook": false,
     "share_twitter": false,
     "share_pinterest": false,
+    "favicon": "shopify:\/\/shop_images\/RISE-FAVICON-UPDATED.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/fav.png",
     "checkout_logo_position": "center",
-    "checkout_logo_size": "small",
+    "checkout_logo_size": "large",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_accent_color": "#111111",
-    "checkout_button_color": "#111111",
+    "checkout_button_color": "#282828",
     "checkout_error_color": "#c20000",
     "breadcrumb": false,
     "sections": {
@@ -97,6 +98,7 @@
           },
           "1524770292306": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "STORE WIDE ANNOUNCEMENT BAR - CAN BE HIDDEN",
               "link_text": "",
@@ -109,7 +111,7 @@
           "1524770292306"
         ],
         "settings": {
-          "main_menu_link_list": "2-0-nav-update",
+          "main_menu_link_list": "main-menu-v2",
           "mega_menu_images": true,
           "main_menu_alignment": "left",
           "header_style": "sticky",

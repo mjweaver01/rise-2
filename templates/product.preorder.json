@@ -23,6 +23,13 @@
             "color_swatches": false
           }
         },
+        "346f6ad8-6656-459f-bdff-41cf0ee520ad": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "package",
+            "text": "Preorder item set to ship around [+metafield]"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -30,24 +37,17 @@
             "surface_pickup_enable": true
           }
         },
+        "78248d3f-729f-4a59-bec3-2100c76e6578": {
+          "type": "custom",
+          "settings": {
+            "code": "<h4>Delayed Shipping Notice<\/h4>\n<p>This item is a pre-order item with a future ship date as indicated above. We will ship your order around this date, but due to production delays or other unpredictable reasons, this date may change.\n<\/p>\n<hr>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
             "is_tab": false
           }
-        },
-        "contact": {
-          "type": "contact",
-          "disabled": true,
-          "settings": {
-            "title": "Ask a question",
-            "phone": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {}
         }
       },
       "block_order": [
@@ -55,16 +55,16 @@
         "separator",
         "9a7f848c-755c-4c66-9d1b-e57244608b99",
         "variant_picker",
+        "346f6ad8-6656-459f-bdff-41cf0ee520ad",
         "buy_buttons",
-        "description",
-        "contact",
-        "share"
+        "78248d3f-729f-4a59-bec3-2100c76e6578",
+        "description"
       ],
       "settings": {
         "sku_enable": false,
         "image_position": "right",
         "image_size": "medium",
-        "product_zoom_enable": true,
+        "product_zoom_enable": false,
         "thumbnail_position": "beside",
         "thumbnail_arrows": false,
         "mobile_layout": "partial",

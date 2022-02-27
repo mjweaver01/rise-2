@@ -4,7 +4,7 @@
       "type": "collection-header",
       "settings": {
         "enable": true,
-        "collection_image_enable": true,
+        "collection_image_enable": false,
         "parallax": false
       }
     },
@@ -15,7 +15,7 @@
           "type": "product_grid",
           "settings": {
             "enable_collection_count": true,
-            "per_row": 4,
+            "per_row": 3,
             "rows_per_page": 20,
             "mobile_flush_grid": true
           }

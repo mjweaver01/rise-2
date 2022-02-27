@@ -1,4 +1,7 @@
 {%- for sub_link in link.links -%}
+  {%- comment %}<locksmith:d815>{% endcomment -%}
+    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+  {%- comment %}</locksmith:d815>{% endcomment -%}
   {%- if sub_link.url contains '/collections/' -%}
     {%- assign lang_code_string = request.locale.iso_code | prepend: '/' | downcase -%}
     {%- assign sub_handle = sub_link.url | remove: '/collections/' | remove: lang_code_string -%}
@@ -13,6 +16,9 @@
       {%- if block.settings.enable_subsubcollections and sub_link.levels > 0 -%}
         <ul class="no-bullets tag-list">
           {%- for sub_sub_link in sub_link.links -%}
+            {%- comment %}<locksmith:bd87>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_sub_link, subject_parent: sub_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:bd87>{% endcomment -%}
             {%- if sub_sub_link.url contains '/collections/' -%}
               {%- assign lang_code_string = request.locale.iso_code | prepend: '/' | downcase -%}
               {%- assign sub_sub_handle = sub_sub_link.url | remove: '/collections/' | remove: lang_code_string -%}

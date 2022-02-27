@@ -13,7 +13,7 @@
           "settings": {
             "heading": "Want to browse all music?",
             "text": "",
-            "link": "#",
+            "link": "shopify:\/\/collections\/music",
             "label": "Shop All",
             "color_tint": "#000000",
             "color_tint_opacity": 8,

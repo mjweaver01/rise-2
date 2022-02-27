@@ -22,7 +22,8 @@
         assign button_text = 'products.product.sold_out' | t
       endunless
     -%}
-
+{% render 'outlink-custom', product:product, o_showOutlink:1, o_hideCart:1 , o_classes: 'btn btn--full add-to-cart', o_style: '' %}
+<div class="o_original_{{ product.id }}">
     <button
       {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
       name="add"
@@ -37,7 +38,7 @@
     {%- if enable_dynamic_buttons -%}
       {{ form | payment_button }}
     {%- endif -%}
-
+</div>
   {%- if enable_dynamic_buttons -%}
     </div>
   {%- endif -%}

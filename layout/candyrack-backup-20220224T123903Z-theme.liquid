@@ -1,6 +1,6 @@
-{%- comment %}<locksmith:8fcd>{% endcomment -%}
+{%- comment %}<locksmith:6221>{% endcomment -%}
   {%- include 'locksmith' -%}
-{%- comment %}</locksmith:8fcd>{% endcomment -%}
+{%- comment %}</locksmith:6221>{% endcomment -%}
 
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ settings.text_direction }}">
@@ -24,10 +24,10 @@
   {%- render 'seo-title' -%}
 
   {%- if page_description -%}
-  {%- comment %}<locksmith:8522>{% endcomment -%}
+  {%- comment %}<locksmith:114b>{% endcomment -%}
     {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
     {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
-  {%- comment %}</locksmith:8522>{% endcomment -%}
+  {%- comment %}</locksmith:114b>{% endcomment -%}
   {%- endif -%}
 
   {%- render 'social-meta-tags' -%}
@@ -118,10 +118,7 @@
 		})(window,document,'script','dataLayer','GTM-TBGM442');</script>
 	<!-- End Google Tag Manager -->
   
-
-        {% render 'digismoothie-candyrack' %}
-        </head>
-        
+</head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}" data-center-text="{{ settings.type_body_align_text }}" data-button_style="{{ settings.button_style }}" data-type_header_capitalize="{{ settings.type_header_capitalize }}" data-type_headers_align_text="{{ settings.type_headers_align_text }}" data-type_product_capitalize="{{ settings.type_product_capitalize }}" data-swatch_style="{{ settings.swatch_style }}" {% if settings.disable_animations %}data-disable-animations="true"{% endif %}>
 

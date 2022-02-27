@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 3,
+            "rows_per_page": 20,
+            "mobile_flush_grid": true
+          }
+        }
+      },
+      "block_order": [
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": true,
+        "paginate_products": "infinite"
+      }
+    },
+    "16459101621842ce89": {
+      "type": "collection-video-hero",
+      "blocks": {
+        "16459101625c77b6cf-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "top_subheading": "",
+            "title_size": 60,
+            "subheading": "",
+            "link": "{{ collection.metafields.global[\"Featured-Video-Code\"].value }}",
+            "link_text": "WATCH NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "{{ collection.metafields.global.featured_video_thumbnail.value }}",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16459101625c77b6cf-0"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "300px",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "main-collection",
+    "16459101621842ce89"
+  ]
+}
