@@ -8,6 +8,9 @@
         "parallax": false
       }
     },
+    "artist-social": {
+      "type": "artist-social"
+    },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
@@ -36,6 +39,7 @@
   },
   "order": [
     "collection-header",
+    "artist-social",
     "main-collection"
   ]
 }
