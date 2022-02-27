@@ -67,15 +67,14 @@ Arguments
         </div>
       {%- endif -%}
     
-    {% assign productTags = product.tags | join: ', ' %}
-{% if productTags contains 'preorder' %}
- 		<div class="grid-product__tag grid-product__tag--preorder">
+      {% assign productTags = product.tags | join: ', ' %}
+      {% if productTags contains 'preorder' and product.available %}
+ 		    <div class="grid-product__tag grid-product__tag--preorder">
           Preorder
         </div>
       {%- endif -%}
     {%- endif -%}
     
-
     {%- liquid
       assign fixed_aspect_ratio = false
       unless settings.product_grid_image_size == 'natural'
