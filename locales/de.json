@@ -302,6 +302,7 @@
       "sale_price": "Sonderpreis",
       "regular_price": "Normaler Preis",
       "from_text_html": "Von {{ price }}",
+      "more_from_html": "Mehr von {{ link }}",
       "recent_products": "Zuletzt Angesehen",
       "reviews": "Rezensionen"
     },

@@ -1,0 +1,56 @@
+{%- if product.vendor -%}
+  {%- capture vendor_link -%}
+    {{ product.vendor | link_to_vendor }}
+  {%- endcapture -%}
+
+  <div
+    data-section-id="{{ section.id }}"
+    data-section-type="vendor-products"
+    data-product-id="{{ product.id }}"
+    data-vendor="{{ product.vendor }}"
+  >
+    <div
+      data-subsection
+      data-section-type="collection-grid"
+      class="index-section">
+      <div class="page-width">
+        <header class="section-header">
+          <h3 class="section-header__title">
+            {{ 'products.general.more_from_html' | t: link: vendor_link }}
+          </h3>
+        </header>
+      </div>
+
+      <div class="page-width page-width--flush-small">
+        <div class="grid-overflow-wrapper">
+          <div 
+            id="VendorProducts-{{ section.id }}"
+            class="grid grid--uniform" 
+            data-aos="overflow__animation"
+          >
+            {% comment %}
+              This content is visually hidden and replaced when recommended products show up
+            {% endcomment %}
+            {%- render 'product-grid-item',
+              product: product,
+              per_row: 5
+              quick_shop_enable: settings.quick_shop_enable
+            -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "More from vendor",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "This section will only appear when you are on a product that has a vendor set"
+      }
+    ]
+  }
+{% endschema %}

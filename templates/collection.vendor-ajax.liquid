@@ -1,0 +1,15 @@
+{% comment %}
+  Template to ajax-load products from specific vendor
+{% endcomment %}
+{% layout none %}
+
+{%- liquid
+  assign grid_count = 5
+  assign count = 0
+  for product in collection.products 
+    if product.vendor != 'Route' and count <= grid_count
+      assign count = count | plus: 1
+      render 'product-grid-item', product: product, per_row: grid_count, quick_shop_enable: settings.quick_shop_enable
+    endif
+  endfor
+-%}

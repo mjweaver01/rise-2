@@ -92,6 +92,10 @@
         "related_count": 5
       }
     },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "settings": {}
+    },
     "recently-viewed": {
       "type": "recently-viewed",
       "settings": {
@@ -127,6 +131,7 @@
     "main",
     "sub",
     "product-recommendations",
+    "more-products-vendor",
     "recently-viewed",
     "collection-return",
     "1644251360f5b3f76c"

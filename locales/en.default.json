@@ -302,6 +302,7 @@
       "sale_price": "Sale price",
       "regular_price": "Regular price",
       "from_text_html": "from {{ price }}",
+      "more_from_html": "More from {{ link }}",
       "recent_products": "Recently viewed",
       "reviews": "Reviews"
     },

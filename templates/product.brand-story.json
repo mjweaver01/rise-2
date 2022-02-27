@@ -75,6 +75,10 @@
       "type": "product-recommendations",
       "settings": {}
     },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "settings": {}
+    },
     "recently-viewed": {
       "type": "recently-viewed",
       "settings": {}
@@ -135,6 +139,7 @@
     "text-and-image2",
     "testimonials",
     "product-recommendations",
+    "more-products-vendor",
     "recently-viewed",
     "collection-return"
   ]

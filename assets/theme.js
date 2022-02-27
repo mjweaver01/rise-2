@@ -5274,6 +5274,90 @@ lazySizesConfig.expFactor = 4;
   
     return Recommendations;
   })();
+
+  theme.VendorProducts = (function() {
+    var maxProducts = 6;
+  
+    function VendorProducts(container) {
+      if (!container) {
+        return;
+      }
+  
+      this.container = container;
+      this.sectionId = this.container.getAttribute('data-section-id');
+      this.currentProduct = this.container.getAttribute('data-product-id');
+  
+      theme.initWhenVisible({
+        element: this.container,
+        callback: this.init.bind(this),
+        threshold: 600
+      });
+    };
+  
+    VendorProducts.prototype = Object.assign({}, VendorProducts.prototype, {
+      init: function() {
+        this.outputContainer = document.getElementById('VendorProducts-' + this.sectionId);
+        this.vendor = this.container.getAttribute('data-vendor');
+        var url = theme.routes.collections + '/vendors?view=vendor-ajax&q=' + this.vendor;
+  
+        // remove double `/` in case shop might have /en or language in URL
+        url = url.replace('//', '/');
+  
+        fetch(url).then(function(response) {
+          return response.text();
+        }).then(html => {
+          var count = 0;
+          var products = [];
+          var modals = [];
+          var parser = new DOMParser();
+          var doc = parser.parseFromString(html, 'text/html');
+  
+          var allProds = doc.querySelectorAll('.grid-product');
+  
+          // Do not add current product to output
+          allProds.forEach(el => {
+            var id = el.dataset.productId;
+  
+            if (count === maxProducts) {
+              return;
+            }
+  
+            if (id === this.currentProduct) {
+              return;
+            }
+  
+            var modal = doc.querySelector('.modal[data-product-id="'+ id +'"]');
+            if (modal) {
+              modals.push(modal);
+            }
+  
+  
+            count++;
+            products.push(el);
+          });
+  
+          this.outputContainer.innerHTML = '';
+  
+          if (products.length === 0) {
+            this.container.classList.add('hide');
+          } else {
+            this.outputContainer.classList.remove('hide');
+            this.outputContainer.append(...products);
+
+            theme.reinitProductGridItem(this.outputContainer);
+  
+            document.dispatchEvent(new CustomEvent('recommendations:loaded', {
+              detail: {
+                section: this.outputContainer
+              }
+            }));
+          }
+        });
+      }
+    });
+  
+    return VendorProducts;
+  })();
   
   theme.SlideshowSection = (function() {
   
@@ -7702,6 +7786,7 @@ lazySizesConfig.expFactor = 4;
     theme.sections.register('photoswipe', theme.Photoswipe);
     theme.sections.register('product-recommendations', theme.Recommendations);
     theme.sections.register('background-image', theme.BackgroundImage);
+    theme.sections.register('vendor-products', theme.VendorProducts);
     theme.sections.register('testimonials', theme.Testimonials);
     theme.sections.register('video-section', theme.VideoSection);
     theme.sections.register('map', theme.Maps);

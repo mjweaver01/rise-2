@@ -302,6 +302,7 @@
       "sale_price": "Preço de saldo",
       "regular_price": "Preço normal",
       "from_text_html": "Desde {{ price }}",
+      "more_from_html": "Mais de {{ link }}",
       "recent_products": "Visto recentemente",
       "reviews": "Avaliações"
     },
