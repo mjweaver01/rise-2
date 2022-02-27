@@ -80,15 +80,12 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
-    },
-    "more-products-vendor": {
-      "type": "more-products-vendor",
-      "settings": {}
     },
     "more-products-vendor": {
       "type": "more-products-vendor",
