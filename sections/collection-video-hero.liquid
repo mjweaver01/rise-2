@@ -1,3 +1,11 @@
+{% assign dontShow = false %}
+{%- for block in section.blocks limit: 1 -%}
+  {%- if block.settings.image == blank -%}
+    {% assign dontShow = true %}
+  {%- endif -%}
+{%- endfor -%}
+
+{% unless dontShow %}
 <div
   data-section-id="{{ section.id }}"
   data-section-type="slideshow-section"
@@ -281,6 +289,7 @@
     </div>
   {%- endif -%}
 </div>
+{% endunless %}
 
 {% schema %}
   {
