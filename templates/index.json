@@ -100,7 +100,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/CRCASRV_ADAD_4000x4000_1_efd67423-af8d-42a8-ab17-37cb9b48570b.jpg",
-            "link": "shopify:\/\/collections\/circa-survive",
+            "link": "shopify:\/\/collections\/artist-circa-survive",
             "title": "Circa Survive",
             "subtitle": "A Dream About Death"
           }
@@ -208,7 +208,7 @@
         "featured-collections-3": {
           "type": "collection",
           "settings": {
-            "collection": "circa-survive",
+            "collection": "artist-circa-survive",
             "title": "Circa Survive",
             "focal_point": "center center"
           }
@@ -302,26 +302,16 @@
     },
     "164317443666ffbbca": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "16431744362cee373b-0": {
           "type": "heading",
           "settings": {
             "title": "Featured Video"
           }
-        },
-        "16431744362cee373b-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Can you shrink up space between full video and this rich text box so Featured Video is a more of a header text vs floating?<\/p>"
-          }
         }
       },
       "block_order": [
-        "16431744362cee373b-0",
-        "16431744362cee373b-1"
+        "16431744362cee373b-0"
       ],
       "settings": {
         "align_text": "left",
@@ -376,19 +366,11 @@
     },
     "16459093687ef05b31": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "1645909368a2c9a464-0": {
           "type": "title",
           "settings": {
             "title": "Stay Updated."
-          }
-        },
-        "1645909368a2c9a464-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
           }
         },
         "1645909368a2c9a464-2": {
@@ -398,7 +380,6 @@
       },
       "block_order": [
         "1645909368a2c9a464-0",
-        "1645909368a2c9a464-1",
         "1645909368a2c9a464-2"
       ],
       "settings": {

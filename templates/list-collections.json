@@ -88,7 +88,7 @@
         "71adb704-6e24-46a7-b0d1-d21b58979301": {
           "type": "collection",
           "settings": {
-            "collection": "circa-survive",
+            "collection": "artist-circa-survive",
             "title": "CIRCA SURVIVE",
             "focal_point": "center center"
           }
@@ -138,7 +138,7 @@
         "1642613127b8861eb9-0": {
           "type": "collection",
           "settings": {
-            "collection": "covey",
+            "collection": "artist-covey",
             "title": "COVEY",
             "focal_point": "center center"
           }
@@ -194,7 +194,7 @@
         "efa9376a-198c-4863-b69b-6f9d8cd06d53": {
           "type": "collection",
           "settings": {
-            "collection": "eidola",
+            "collection": "artist-eidola",
             "title": "EIDOLA",
             "focal_point": "center center"
           }
@@ -202,7 +202,7 @@
         "2f1f17bc-694e-4237-a945-8231665746fb": {
           "type": "collection",
           "settings": {
-            "collection": "flogging-molly",
+            "collection": "artist-flogging-molly",
             "title": "FLOGGING MOLLY",
             "focal_point": "center center"
           }
