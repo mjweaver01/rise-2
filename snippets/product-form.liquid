@@ -12,9 +12,10 @@
   {%- endif -%}
 
     {%- liquid
+      assign productTags = product.tags | join: ', '
       assign default_text = 'products.product.add_to_cart' | t
       assign button_text = 'products.product.add_to_cart' | t
-      if template == 'product.preorder'
+      if template == 'product.preorder' or productTags contains 'preorder' or productTags contains 'Preorder'
         assign default_text = 'products.product.preorder' | t
         assign button_text = 'products.product.preorder' | t
       endif
