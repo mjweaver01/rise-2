@@ -4,9 +4,12 @@
     color: {{ section.settings.color_text }};
   }
 
+  .newsletter-{{ section.id }} .newsletter__input { border-color: var(--colorBody); border-right: none; }
   .newsletter-{{ section.id }} .newsletter__input::-webkit-input-placeholder { color: {{ section.settings.color_text }}; }
   .newsletter-{{ section.id }} .newsletter__input::-moz-placeholder { color: {{ section.settings.color_text }}; }
   .newsletter-{{ section.id }} .newsletter__input::-ms-input-placeholder { color: {{ section.settings.color_text }}; }
+  .newsletter-{{ section.id }} button { font-family: "proxima-nova", sans-serif; font-weight: 900; border-color: var(--colorBody); }
+  .newsletter-{{ section.id }} button:hover { border-color: var(--colorBody) !important; }
 {%- endstyle -%}
 
 <div class="newsletter-section newsletter-{{ section.id }}{% if section.settings.color_background == settings.color_body_bg %} newsletter-section--with-divider{% endif %}">
