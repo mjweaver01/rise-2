@@ -4,7 +4,7 @@
     color: {{ section.settings.color_text }};
   }
 
-  .newsletter-{{ section.id }} .block-title { font-family: "proxima-nova", sans-serif; font-weight: bold; }
+  .newsletter-{{ section.id }} .proxblack { text-transform: capitalize; }
   .newsletter-{{ section.id }} .newsletter__input { border-color: var(--colorBody); border-right: none; }
   .newsletter-{{ section.id }} .newsletter__input::-webkit-input-placeholder { color: {{ section.settings.color_text }}; }
   .newsletter-{{ section.id }} .newsletter__input::-moz-placeholder { color: {{ section.settings.color_text }}; }
@@ -22,7 +22,7 @@
             {% render block %}
           {%- when 'title' -%}
             {%- if block.settings.title != blank -%}
-              <p class="h3 block-title">{{ block.settings.title | escape }}</p>
+              <p class="h3 proxblack">{{ block.settings.title | escape }}</p>
             {%- endif -%}
           {%- when 'text' -%}
             {%- if block.settings.text != blank -%}
