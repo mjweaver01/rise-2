@@ -302,6 +302,7 @@
     },
     "164317443666ffbbca": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16431744362cee373b-0": {
           "type": "heading",
@@ -337,6 +338,7 @@
     },
     "16431418316cffa8c4": {
       "type": "advanced-content",
+      "disabled": true,
       "blocks": {
         "1643141831ba1035d7-1": {
           "type": "liquid",
