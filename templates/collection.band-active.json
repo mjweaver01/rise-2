@@ -13,17 +13,10 @@
       "settings": {
         "social_website": "{{ collection.metafields.global[\"Artist-Website\"].value }}",
         "social_facebook_link": "{{ collection.metafields.global[\"Artist-Facebook\"].value }}",
-        "social_twitter_link": "",
-        "social_spotify_link": "{{ collection.metafields.global[\"Artist-Spotify\"].value }}",
-        "social_apple_link": "{{ collection.metafields.global[\"Artist-Apple\"].value }}",
-        "social_pinterest_link": "",
         "social_instagram_link": "{{ collection.metafields.global[\"Artist-Instagram\"].value }}",
-        "social_snapchat_link": "",
-        "social_tiktok_link": "",
-        "social_tumblr_link": "",
-        "social_linkedin_link": "",
         "social_youtube_link": "{{ collection.metafields.global[\"Artist-Youtube\"].value }}",
-        "social_vimeo_link": ""
+        "social_apple_link": "{{ collection.metafields.global[\"Artist-Apple\"].value }}",
+        "social_spotify_link": "{{ collection.metafields.global[\"Artist-Spotify\"].value }}"
       }
     },
     "main-collection": {

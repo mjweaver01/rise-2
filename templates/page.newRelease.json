@@ -52,7 +52,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/CRCASRV_ADAD_4000x4000_1_efd67423-af8d-42a8-ab17-37cb9b48570b.jpg",
-            "link": "",
+            "link": "shopify:\/\/collections\/artist-circa-survive",
             "title": "Circa Survive",
             "subtitle": "A Dream About Death",
             "description": "OUT NOW"
@@ -152,7 +152,6 @@
         "f09ce21a-6085-4fb0-b2f3-14e0fbbae856": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MYDPRD-WIMTFA_CVR-DSP_2.png",
             "link": "",
             "title": "Artist Name",
             "subtitle": "Album Title",
@@ -162,7 +161,6 @@
         "1d7e327b-65dd-42cb-8b62-139021d4545a": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-09-08_at_9.08.52_AM_dd4b2778-cb87-4db6-85c8-c61635353140.png",
             "link": "",
             "title": "Artist Name",
             "subtitle": "Album Title",
@@ -172,7 +170,6 @@
         "5021c4fe-2c42-46fa-85c1-a8d99939ada3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-08-12_at_4.31.36_PM_9d11977f-242a-42bf-b7f4-f8189606c5b7.png",
             "link": "",
             "title": "Artist Name",
             "subtitle": "Album Title",
@@ -182,7 +179,6 @@
         "5dd3a693-f57f-465d-b4a2-b959a330f8af": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-08-12_at_4.28.54_PM_ad64fabb-c826-42a3-9a61-756ef81f8753.png",
             "link": "",
             "title": "Artist Name",
             "subtitle": "Album Title",
@@ -192,7 +188,6 @@
         "a510780a-df3d-43d9-ae4e-b1df82873f98": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSTLLRS_LIL_DSP_4000x4000_copy_1.jpg",
             "link": "",
             "title": "Artist Name",
             "subtitle": "Album Title",
@@ -202,7 +197,6 @@
         "abb8b875-9681-46f6-b8f4-b8102a0ee4cd": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-06-24_at_5.38.10_PM.png",
             "link": "",
             "title": "Artist Name",
             "subtitle": "Album Title",
