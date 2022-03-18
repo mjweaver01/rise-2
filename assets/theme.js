@@ -5298,7 +5298,7 @@ lazySizesConfig.expFactor = 4;
       init: function() {
         this.outputContainer = document.getElementById('VendorProducts-' + this.sectionId);
         this.vendor = this.container.getAttribute('data-vendor');
-        var url = theme.routes.collections + '/vendors?view=vendor-ajax&q=' + this.vendor + '&sort_by=created-descending';
+        var url = theme.routes.collections + '/vendors?view=vendor-ajax&q=' + encodeURIComponent(this.vendor) + '&sort_by=created-descending';
   
         // remove double `/` in case shop might have /en or language in URL
         url = url.replace('//', '/');
