@@ -80,7 +80,7 @@
     };
   </script>
 
-  {{ content_for_header }}
+  <!-- OutlinkStickyBtn CODE Start -->{% if template.name == 'product'%}{% render('outlink-sticky') %}{% endif %}<!-- OutlinkStickyBtn END --> {{ content_for_header }}
 
   <script src="{{ 'vendor-scripts-v10.js' | asset_url | split: '?' | first }}" defer="defer"></script>
 

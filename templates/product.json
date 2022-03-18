@@ -105,6 +105,7 @@
     },
     "collection-return": {
       "type": "collection-return",
+      "disabled": true,
       "settings": {}
     },
     "1644251360f5b3f76c": {

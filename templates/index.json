@@ -78,6 +78,24 @@
     "16424486773b473527": {
       "type": "featured-slider",
       "blocks": {
+        "4be95cf3-30fa-416c-a111-11a6c8cb236f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PLACEBO_Never_Let_Me_Go_3.jpg",
+            "link": "shopify:\/\/collections\/artist-placebo",
+            "title": "Placebo",
+            "subtitle": "Never Let Me Go"
+          }
+        },
+        "8f7c12b2-ecb0-4932-8fe1-f7b31092b038": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PLSDS_RCHNGHPRCTCL_4000x4000_2.jpg",
+            "link": "shopify:\/\/collections\/artist-palisades",
+            "title": "Palisades",
+            "subtitle": "Reaching Hypercritical"
+          }
+        },
         "01ad7d25-3458-4818-a7ee-4bb9c97a68ac": {
           "type": "item",
           "settings": {
@@ -96,15 +114,6 @@
             "subtitle": "Swan Song (feat. Scott Vogel)"
           }
         },
-        "8f7c12b2-ecb0-4932-8fe1-f7b31092b038": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CRCASRV_ADAD_4000x4000_1_efd67423-af8d-42a8-ab17-37cb9b48570b.jpg",
-            "link": "shopify:\/\/collections\/artist-circa-survive",
-            "title": "Circa Survive",
-            "subtitle": "A Dream About Death"
-          }
-        },
         "0c9f1423-7f99-4596-bd47-3c50b9029b6e": {
           "type": "item",
           "settings": {
@@ -113,23 +122,14 @@
             "title": "Spite",
             "subtitle": "Caved In"
           }
-        },
-        "4be95cf3-30fa-416c-a111-11a6c8cb236f": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MRCI_SBTLFCTN-2_4000x4000_1_copy_1_6317530c-84c0-4aa8-bbeb-6691b5648c55.jpg",
-            "link": "shopify:\/\/collections\/artist-merci",
-            "title": "Merci",
-            "subtitle": "Subtle Fiction II"
-          }
         }
       },
       "block_order": [
+        "4be95cf3-30fa-416c-a111-11a6c8cb236f",
+        "8f7c12b2-ecb0-4932-8fe1-f7b31092b038",
         "01ad7d25-3458-4818-a7ee-4bb9c97a68ac",
         "e2076de2-ab26-4f92-9f68-ec388da9edb9",
-        "8f7c12b2-ecb0-4932-8fe1-f7b31092b038",
-        "0c9f1423-7f99-4596-bd47-3c50b9029b6e",
-        "4be95cf3-30fa-416c-a111-11a6c8cb236f"
+        "0c9f1423-7f99-4596-bd47-3c50b9029b6e"
       ],
       "settings": {
         "title": "Latest Releases"
