@@ -87,11 +87,13 @@ Arguments
 
     <a href="{{ product.url | within: collection }}" class="grid-product__link">
       <div class="grid-product__image-mask">
-        {%- if quick_shop_enable -%}
-          <div class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-{{ product.id }} small--hide">
-            <span class="quick-product__label">{{ settings.quick_shop_text }}</span>
-          </div>
-        {%- endif -%}
+        {% unless product.tags contains "on_auction" or product.tags contains "wk_end_auction" or product.tags contains "upcoming_auction" %}
+          {%- if quick_shop_enable -%}
+            <div class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-{{ product.id }} small--hide">
+              <span class="quick-product__label">{{ settings.quick_shop_text }}</span>
+            </div>
+          {%- endif -%}
+        {% endunless %}
         {%- if fixed_aspect_ratio -%}
           <div
             class="grid__image-ratio grid__image-ratio--{{ settings.product_grid_image_size }}">
@@ -174,7 +176,7 @@ Arguments
           <div class="grid-product__vendor">{{ product.vendor }}</div>
         {%- endif -%}
         <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">{{ product.title }}</div>
-        
+        {% unless product.tags contains "on_auction" or product.tags contains "wk_end_auction" or product.tags contains "upcoming_auction" %}
         <div class="grid-product__price">
           {%- if on_sale -%}
             <span class="visually-hidden">{{ 'products.general.regular_price' | money_without_trailing_zeros }}}}</span>
@@ -216,6 +218,8 @@ Arguments
             </div>
           {%- endif -%}
         </div>
+          {% endunless %}
+          <div class="wk-category-auction" data-prod="{{ product.id }}" cust-id="{{ customer.id }}"></div>
       </div>
     </a>
   </div>

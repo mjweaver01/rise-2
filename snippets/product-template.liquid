@@ -164,7 +164,7 @@
                       {%- else -%}
                         <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
                       {%- endif -%}
-
+                     {% unless product.tags contains "on_auction" or product.tags contains "wk_end_auction" or product.tags contains "upcoming_auction" %}
                       <span data-product-price
                         class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
                         {%- unless product.empty? -%}
@@ -173,7 +173,7 @@
                           {{ 1999 | money }}
                         {%- endunless -%}
                       </span>
-
+                    {% endunless %}
                       {%- if settings.product_save_amount -%}
                         {%- if settings.product_save_type == 'dollar' -%}
                           {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | money }}{%- endcapture -%}
@@ -216,6 +216,7 @@
                       {%- endif -%}
                     </div>
                   {%- when 'quantity_selector' -%}
+                  {% unless product.tags contains "on_auction" or product.tags contains "wk_end_auction" or product.tags contains "upcoming_auction" %}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       <div class="product__quantity">
                         {% assign qty_id = section_id | append: product.id %}
@@ -223,6 +224,7 @@
                         {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
                       </div>
                     </div>
+                    {% endunless %}
                   {%- when 'variant_picker' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {%- unless product.has_only_default_variant -%}

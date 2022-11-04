@@ -8,185 +8,189 @@
     "new-release-grid": {
       "type": "new-release-grid",
       "blocks": {
-        "5fc9e8ca-7c53-44b0-8974-da01ebd6dd34": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mmf-remadeinmisery-cover_copy_3_4664ddbb-7e86-4071-8f70-549caa221d94.jpg",
-            "link": "shopify:\/\/collections\/artist-memphis-may-fire",
-            "title": "Memphis May Fire",
-            "subtitle": "Remade In Misery",
-            "description": "Out 6\/3"
-          }
-        },
-        "a0d39b93-d82f-45a4-96a9-74be69427d02": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/KKTX_LFOA_DSP_1_e3d34be2-67a6-466f-a62e-a5abb2cbeefc.jpg",
-            "link": "shopify:\/\/collections\/artist-kublai-khan",
-            "title": "Kublai Khan TX",
-            "subtitle": "Lowest Form Of Animal",
-            "description": "Out 4\/1"
-          }
-        },
         "a7431388-74e2-4b2e-8827-514d6216424f": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PUP_UNRAVELING_1080_6fee7c55-39b8-410a-a991-115f8e369f4e.jpg",
-            "link": "https:\/\/pup.lnk.to\/TUOPTB",
-            "title": "PUP",
-            "subtitle": "THE UNRAVELING OF PUPTHEBAND",
-            "description": "Out 4\/1"
-          }
-        },
-        "f8b1f3b8-ee9d-4f71-8dd8-c3c5c132505e": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/GOOD-FOR-HER-DSP_1_copy_c8326cd6-2611-471d-ae85-aaadfe2779f3.jpg",
-            "link": "shopify:\/\/collections\/artist-mothica",
-            "title": "MOTHICA & emlyn",
-            "subtitle": "GOOD FOR HER",
+            "image": "shopify:\/\/shop_images\/REMEMBER_THAT_YOU_WILL_DIE.jpg",
+            "link": "shopify:\/\/collections\/polyphia",
+            "title": "Polyphia",
+            "subtitle": "Remember That You Will Die",
             "description": "OUT NOW"
           }
         },
-        "f4ae4987-eca7-4b60-9a54-46b3585b9751": {
+        "5fc9e8ca-7c53-44b0-8974-da01ebd6dd34": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CRCASRV_ADAD_4000x4000_1_efd67423-af8d-42a8-ab17-37cb9b48570b.jpg",
-            "link": "shopify:\/\/collections\/artist-circa-survive",
-            "title": "Circa Survive",
-            "subtitle": "A Dream About Death",
+            "image": "shopify:\/\/shop_images\/Pup_Unravels_Live_Art_1_copy.jpg",
+            "link": "shopify:\/\/collections\/artist-pup",
+            "title": "PUP",
+            "subtitle": "PUP Unravels Live In Front Of Everyone They Know",
             "description": "OUT NOW"
           }
         },
         "34e5bc06-5b08-47bf-8c91-b847f9782172": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TILIAN-BREATHE-REMIX-DSP_1_385dbf31-05e7-43cc-9ccc-84df8b060c18.jpg",
-            "link": "shopify:\/\/collections\/artist-tilian",
-            "title": "Tilian",
-            "subtitle": "Breathe (Mars Monero's Hyperventilate Remix)",
+            "image": "shopify:\/\/shop_images\/Flogging_Molly_-_Anthem_1.jpg",
+            "link": "shopify:\/\/collections\/artist-flogging-molly",
+            "title": "Flogging Molly",
+            "subtitle": "Anthem",
             "description": "OUT NOW"
           }
         },
         "0b7c6684-8873-4284-ba26-951389ae1f4f": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/final_caved_in_artwork_3000x3000px_1_f62367ef-c4bc-4be8-a92c-cb1d4f09d62e.jpg",
-            "link": "shopify:\/\/collections\/artist-make-them-suffer-1",
+            "image": "shopify:\/\/shop_images\/Spite_DedicationToFlesh_DSP.jpg",
+            "link": "shopify:\/\/collections\/artist-spite",
             "title": "Spite",
-            "subtitle": "Caved In",
+            "subtitle": "Dedication To Flesh",
             "description": "OUT NOW"
           }
         },
-        "e063c73e-e4d4-4cb0-8ebf-4b9cef9dd24d": {
+        "a0d39b93-d82f-45a4-96a9-74be69427d02": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MRCI_SBTLFCTN-2_4000x4000_1_copy_1_6317530c-84c0-4aa8-bbeb-6691b5648c55.jpg",
-            "link": "shopify:\/\/collections\/artist-merci",
-            "title": "Merci",
-            "subtitle": "Subtle Fiction II",
-            "description": "OUT NOW"
-          }
-        },
-        "2a1ada66-74b2-41e9-91ec-a995f0ee75b8": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CIRCA-EP1-cover_b1bc8ed1-93c2-434b-b8e4-bdf86573a91f.jpg",
-            "link": "",
-            "title": "Circa Survive",
-            "subtitle": "A Dream about love",
-            "description": "OUT NOW"
-          }
-        },
-        "644545a8-0ec6-407e-9ceb-52e0055a08be": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PLSDS_MYCNSQUENCE-CVR_DSP_4000_4_copy_c2d86827-9ef5-452b-80c9-21ed6f7f20a2.jpg",
-            "link": "https:\/\/riserecords.lnk.to\/myconsequences",
-            "title": "Palisades",
-            "subtitle": "My Consequences",
-            "description": "OUT NOW"
-          }
-        },
-        "cf04b782-15b5-4404-8fd9-ec8a6a1c3d1e": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/COVER_REVISED_0eb778cd-ebe7-4d3e-94dd-3a4b6c069038.jpg",
-            "link": "shopify:\/\/collections\/artist-cold-collective",
-            "title": "Cold Collective",
-            "subtitle": "Weathervane",
+            "image": "shopify:\/\/shop_images\/RC-To_Only_A_Few_At_First_1.jpg",
+            "link": "shopify:\/\/collections\/artist-royal-coda",
+            "title": "Royal Coda",
+            "subtitle": "To Only A Few At First",
             "description": "OUT NOW"
           }
         },
         "c6c4ebeb-c50b-41fc-be42-aaf842afdeb8": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MYDPRD-WIMTFA_CVR-DSP_2.jpg",
-            "link": "shopify:\/\/collections\/mayday-parade",
-            "title": "Mayday Parade",
-            "subtitle": "What It means to fall apart",
+            "image": "shopify:\/\/shop_images\/DGD_JPJ-DSP_4000x4000.jog.jpg",
+            "link": "shopify:\/\/collections\/artist-dance-gavin-dance",
+            "title": "Dance Gavin Dance",
+            "subtitle": "Jackpot Juicer",
+            "description": "OUT NOW"
+          }
+        },
+        "cf04b782-15b5-4404-8fd9-ec8a6a1c3d1e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Deep_Cuts_Flower_Final_1.jpg",
+            "link": "shopify:\/\/collections\/artist-you-me-at-six",
+            "title": "You Me At Six",
+            "subtitle": "DEEP CUTS",
+            "description": "OUT NOW"
+          }
+        },
+        "e063c73e-e4d4-4cb0-8ebf-4b9cef9dd24d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NEUROTICA.jpg",
+            "link": "shopify:\/\/collections\/polyphia",
+            "title": "Polyphia",
+            "subtitle": "Neurotica",
+            "description": "OUT NOW"
+          }
+        },
+        "644545a8-0ec6-407e-9ceb-52e0055a08be": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PLSDS_RCHNGHPRCTCL_4000x4000_1.jpg",
+            "link": "shopify:\/\/collections\/artist-palisades",
+            "title": "Palisades",
+            "subtitle": "Reaching Hypercritical",
+            "description": "OUT NOW"
+          }
+        },
+        "f8b1f3b8-ee9d-4f71-8dd8-c3c5c132505e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NOCTURNAL_COVER_copy_2.jpg",
+            "link": "shopify:\/\/collections\/artist-mothica",
+            "title": "MOTHICA",
+            "subtitle": "Nocturnal",
+            "description": "OUT NOW"
+          }
+        },
+        "2a1ada66-74b2-41e9-91ec-a995f0ee75b8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SA_DSP-4000x4000.jpg",
+            "link": "https:\/\/riserecords.lnk.to\/SocialAnimals",
+            "title": "Social Animals",
+            "subtitle": "Social Animals",
+            "description": "OUT NOW"
+          }
+        },
+        "f4ae4987-eca7-4b60-9a54-46b3585b9751": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SB_ROTOSCOPE-4000x4000_2.jpg",
+            "link": "shopify:\/\/collections\/artist-spiritbox",
+            "title": "Spiritbox",
+            "subtitle": "Rotoscope",
             "description": "OUT NOW"
           }
         }
       },
       "block_order": [
-        "5fc9e8ca-7c53-44b0-8974-da01ebd6dd34",
-        "a0d39b93-d82f-45a4-96a9-74be69427d02",
         "a7431388-74e2-4b2e-8827-514d6216424f",
-        "f8b1f3b8-ee9d-4f71-8dd8-c3c5c132505e",
-        "f4ae4987-eca7-4b60-9a54-46b3585b9751",
+        "5fc9e8ca-7c53-44b0-8974-da01ebd6dd34",
         "34e5bc06-5b08-47bf-8c91-b847f9782172",
         "0b7c6684-8873-4284-ba26-951389ae1f4f",
-        "e063c73e-e4d4-4cb0-8ebf-4b9cef9dd24d",
-        "2a1ada66-74b2-41e9-91ec-a995f0ee75b8",
-        "644545a8-0ec6-407e-9ceb-52e0055a08be",
+        "a0d39b93-d82f-45a4-96a9-74be69427d02",
+        "c6c4ebeb-c50b-41fc-be42-aaf842afdeb8",
         "cf04b782-15b5-4404-8fd9-ec8a6a1c3d1e",
-        "c6c4ebeb-c50b-41fc-be42-aaf842afdeb8"
+        "e063c73e-e4d4-4cb0-8ebf-4b9cef9dd24d",
+        "644545a8-0ec6-407e-9ceb-52e0055a08be",
+        "f8b1f3b8-ee9d-4f71-8dd8-c3c5c132505e",
+        "2a1ada66-74b2-41e9-91ec-a995f0ee75b8",
+        "f4ae4987-eca7-4b60-9a54-46b3585b9751"
       ],
       "settings": {}
     },
     "1643428215aa645625": {
       "type": "new-release-grid",
-      "disabled": true,
       "blocks": {
-        "f09ce21a-6085-4fb0-b2f3-14e0fbbae856": {
+        "5dd3a693-f57f-465d-b4a2-b959a330f8af": {
           "type": "item",
           "settings": {
-            "link": "",
-            "title": "Artist Name",
-            "subtitle": "Album Title",
-            "description": "OUT NOW"
-          }
-        },
-        "1d7e327b-65dd-42cb-8b62-139021d4545a": {
-          "type": "item",
-          "settings": {
-            "link": "",
-            "title": "Artist Name",
-            "subtitle": "Album Title",
+            "image": "shopify:\/\/shop_images\/mmf-remadeinmisery-cover_copy.jpg",
+            "link": "https:\/\/riserecords.lnk.to\/MMF",
+            "title": "MEMPHIS MAY FIRE",
+            "subtitle": "REMADE IN MISERY",
             "description": "OUT NOW"
           }
         },
         "5021c4fe-2c42-46fa-85c1-a8d99939ada3": {
           "type": "item",
           "settings": {
-            "link": "",
-            "title": "Artist Name",
-            "subtitle": "Album Title",
+            "image": "shopify:\/\/shop_images\/POLYPHIA_-_PLAYING_GOD_-_DSP.jpg",
+            "link": "shopify:\/\/collections\/polyphia",
+            "title": "Polyphia",
+            "subtitle": "Playing God",
             "description": "OUT NOW"
           }
         },
-        "5dd3a693-f57f-465d-b4a2-b959a330f8af": {
+        "f09ce21a-6085-4fb0-b2f3-14e0fbbae856": {
           "type": "item",
           "settings": {
-            "link": "",
-            "title": "Artist Name",
-            "subtitle": "Album Title",
+            "image": "shopify:\/\/shop_images\/KKTX_LFOA_DSP.jpg",
+            "link": "shopify:\/\/collections\/artist-kublai-khan",
+            "title": "Kublai Khan TX",
+            "subtitle": "Lowest Form Of Animal",
+            "description": "OUT NOW"
+          }
+        },
+        "1d7e327b-65dd-42cb-8b62-139021d4545a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDYPRDE_THNDR_DSP-4000x4000_copy.jpg",
+            "link": "https:\/\/riserecords.lnk.to\/thunder",
+            "title": "Mayday Parade",
+            "subtitle": "Thunder",
             "description": "OUT NOW"
           }
         },
         "a510780a-df3d-43d9-ae4e-b1df82873f98": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "link": "",
             "title": "Artist Name",
@@ -196,6 +200,7 @@
         },
         "abb8b875-9681-46f6-b8f4-b8102a0ee4cd": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "link": "",
             "title": "Artist Name",
@@ -205,10 +210,10 @@
         }
       },
       "block_order": [
+        "5dd3a693-f57f-465d-b4a2-b959a330f8af",
+        "5021c4fe-2c42-46fa-85c1-a8d99939ada3",
         "f09ce21a-6085-4fb0-b2f3-14e0fbbae856",
         "1d7e327b-65dd-42cb-8b62-139021d4545a",
-        "5021c4fe-2c42-46fa-85c1-a8d99939ada3",
-        "5dd3a693-f57f-465d-b4a2-b959a330f8af",
         "a510780a-df3d-43d9-ae4e-b1df82873f98",
         "abb8b875-9681-46f6-b8f4-b8102a0ee4cd"
       ],

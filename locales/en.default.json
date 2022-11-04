@@ -122,7 +122,7 @@
       "update": "Update cart",
       "checkout": "Check out",
       "empty": "Your cart is currently empty.",
-      "continue_browsing_html": "<a href='{{ url }}'>Continue shopping<\/a>",
+      "continue_browsing_html": "<a href='https:\/\/riserecords.com\/'>Continue shopping<\/a>",
       "close_cart": "Close cart",
       "reduce_quantity": "Reduce item quantity by one",
       "increase_quantity": "Increase item quantity by one",
@@ -358,6 +358,17 @@
       "vendor": {
         "label": "Artist"
       }
+    },
+    "checkout": {
+      "shipping": {
+        "estimated_delivery_date": {
+          "one": " ",
+          "other": " "
+        }
+      }
+    },
+    "links": {
+      "powered_by_shopify": " "
     }
   }
 }

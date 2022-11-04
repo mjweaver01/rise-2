@@ -100,9 +100,9 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "STORE WIDE ANNOUNCEMENT BAR - CAN BE HIDDEN",
-              "link_text": "",
-              "link": ""
+              "text": "LABOR DAY SALE - 30% OFF ENTIRE STORE",
+              "link_text": "(excluding pre-orders)",
+              "link": "https:\/\/riserecords.com\/pages\/shop-all"
             }
           }
         },
@@ -176,6 +176,14 @@
               "menu": "cookie-policy",
               "container_width": 15
             }
+          },
+          "fcf399e3-8e18-4765-a4de-b25f3b988788": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": false,
+              "menu": "footer-return-policy",
+              "container_width": 15
+            }
           }
         },
         "block_order": [
@@ -184,7 +192,8 @@
           "5b841862-b576-4179-9546-8b41d8ec916f",
           "05852b42-2787-45d0-babc-aac7d104b258",
           "420c006b-c982-4f74-a698-da2b8823bd12",
-          "5a4827ef-6491-49c2-adce-3e35fcb09a7e"
+          "5a4827ef-6491-49c2-adce-3e35fcb09a7e",
+          "fcf399e3-8e18-4765-a4de-b25f3b988788"
         ],
         "settings": {
           "show_locale_selector": true,

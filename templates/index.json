@@ -3,15 +3,53 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "title": "POLYPHIA",
+            "thumbnail": "shopify:\/\/shop_images\/REMEMBER_THAT_YOU_WILL_DIE.jpg",
+            "top_subheading": "REMEMBER THAT YOU WILL DIE",
+            "title_size": 60,
+            "subheading": "OUT NOW",
+            "link": "shopify:\/\/collections\/polyphia",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-26_at_1.01.48_PM.png",
+            "overlay_opacity": 0,
+            "focal_point": "top center"
+          }
+        },
+        "65121768-eecd-44e2-8843-c809163ed2f0": {
+          "type": "image",
+          "settings": {
+            "title": "Dance Gavin Dance",
+            "thumbnail": "shopify:\/\/shop_images\/DGD_JPJ-DSP_4000x4000.jog.jpg",
+            "top_subheading": "Jackpot Juicer",
+            "title_size": 60,
+            "subheading": "OUT NOW",
+            "link": "shopify:\/\/collections\/artist-dance-gavin-dance",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-01_at_2.55.05_PM.png",
+            "overlay_opacity": 0,
+            "focal_point": "top center"
+          }
+        },
         "37e46d54-eb3d-428b-930d-7b748ff526ee": {
           "type": "image",
           "settings": {
             "title": "MOTHICA",
-            "thumbnail": "shopify:\/\/shop_images\/Casualty_Single_Art_1_48b5f508-a7c4-406a-bc1f-e8d477ed4dd6.jpg",
-            "top_subheading": "CASUALTY",
+            "thumbnail": "shopify:\/\/shop_images\/NOCTURNAL_COVER_copy_2.jpg",
+            "top_subheading": "Nocturnal",
             "title_size": 60,
-            "subheading": "out now",
-            "link": "https:\/\/heavyheart.lnk.to\/CASUALTY",
+            "subheading": "Out Now",
+            "link": "https:\/\/heavyheart.lnk.to\/nocturnal",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
@@ -21,50 +59,12 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
-        },
-        "slideshow-0": {
-          "type": "image",
-          "settings": {
-            "title": "PUP",
-            "thumbnail": "shopify:\/\/shop_images\/PUP_UNRAVELING_1080_6fee7c55-39b8-410a-a991-115f8e369f4e.jpg",
-            "top_subheading": "THE UNRAVELING OF PUPTHEBAND",
-            "title_size": 60,
-            "subheading": "OUT 4\/1",
-            "link": "https:\/\/pup.lnk.to\/TUOPTB",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/VH_PUP2021_0008_2-banner.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "65121768-eecd-44e2-8843-c809163ed2f0": {
-          "type": "image",
-          "settings": {
-            "title": "Memphis May Fire",
-            "thumbnail": "shopify:\/\/shop_images\/mmf-remadeinmisery-cover_copy_3_4664ddbb-7e86-4071-8f70-549caa221d94.jpg",
-            "top_subheading": "Remade In Misery",
-            "title_size": 60,
-            "subheading": "Out 6\/3",
-            "link": "https:\/\/riserecords.lnk.to\/MMF",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/MMF-BANNER-darker-v2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
-          }
         }
       },
       "block_order": [
-        "37e46d54-eb3d-428b-930d-7b748ff526ee",
         "slideshow-0",
-        "65121768-eecd-44e2-8843-c809163ed2f0"
+        "65121768-eecd-44e2-8843-c809163ed2f0",
+        "37e46d54-eb3d-428b-930d-7b748ff526ee"
       ],
       "settings": {
         "section_height": "550px",
@@ -78,58 +78,78 @@
     "16424486773b473527": {
       "type": "featured-slider",
       "blocks": {
-        "4be95cf3-30fa-416c-a111-11a6c8cb236f": {
+        "c86a85ad-c753-482e-84db-39a9fd7a4644": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PLACEBO_Never_Let_Me_Go_3.jpg",
-            "link": "shopify:\/\/collections\/artist-placebo",
-            "title": "Placebo",
-            "subtitle": "Never Let Me Go"
+            "image": "shopify:\/\/shop_images\/Flogging_Molly_-_Anthem_1.jpg",
+            "link": "shopify:\/\/collections\/artist-flogging-molly",
+            "title": "FLOGGING MOLLY",
+            "subtitle": "ANTHEM"
           }
         },
-        "8f7c12b2-ecb0-4932-8fe1-f7b31092b038": {
+        "ec9d1280-a9df-4f5c-831e-69716a815a44": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PLSDS_RCHNGHPRCTCL_4000x4000_2.jpg",
-            "link": "shopify:\/\/collections\/artist-palisades",
-            "title": "Palisades",
-            "subtitle": "Reaching Hypercritical"
-          }
-        },
-        "01ad7d25-3458-4818-a7ee-4bb9c97a68ac": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mmf-makebelieve-cover_1_4fe86cd5-0f09-42fe-b52e-f69b20494311.jpg",
-            "link": "shopify:\/\/collections\/artist-memphis-may-fire",
-            "title": "Memphis May Fire",
-            "subtitle": "Make Believe"
-          }
-        },
-        "e2076de2-ab26-4f92-9f68-ec388da9edb9": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/KKTX_LFOA_DSP_1_e3d34be2-67a6-466f-a62e-a5abb2cbeefc.jpg",
-            "link": "shopify:\/\/collections\/artist-kublai-khan",
-            "title": "Kublai Khan TX",
-            "subtitle": "Swan Song (feat. Scott Vogel)"
+            "image": "shopify:\/\/shop_images\/RC-To_Only_A_Few_At_First_1.jpg",
+            "link": "shopify:\/\/collections\/artist-royal-coda",
+            "title": "Royal Coda",
+            "subtitle": "To Only A Few At First"
           }
         },
         "0c9f1423-7f99-4596-bd47-3c50b9029b6e": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/final_caved_in_artwork_3000x3000px_1_f62367ef-c4bc-4be8-a92c-cb1d4f09d62e.jpg",
+            "image": "shopify:\/\/shop_images\/Spite_DedicationToFlesh_DSP.jpg",
             "link": "shopify:\/\/collections\/artist-spite",
             "title": "Spite",
-            "subtitle": "Caved In"
+            "subtitle": "Dedication To Flesh"
+          }
+        },
+        "e774328a-528a-433e-acaf-d231a6d113ca": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mmf-remadeinmisery-cover_copy.jpg",
+            "link": "https:\/\/riserecords.lnk.to\/MMF",
+            "title": "Memphis May Fire",
+            "subtitle": "Remade In Misery"
+          }
+        },
+        "8f7c12b2-ecb0-4932-8fe1-f7b31092b038": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PLSDS_RCHNGHPRCTCL_4000x4000_1.jpg",
+            "link": "shopify:\/\/collections\/artist-palisades",
+            "title": "Palisades",
+            "subtitle": "Reaching Hypercritical"
+          }
+        },
+        "4be95cf3-30fa-416c-a111-11a6c8cb236f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SB_ROTOSCOPE-4000x4000_2.jpg",
+            "link": "shopify:\/\/collections\/artist-spiritbox",
+            "title": "Spiritbox",
+            "subtitle": "Rotoscope"
+          }
+        },
+        "e2076de2-ab26-4f92-9f68-ec388da9edb9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/REMEMBER_THAT_YOU_WILL_DIE_1.jpg",
+            "link": "https:\/\/riserecords.lnk.to\/RTYWD",
+            "title": "Polyphia",
+            "subtitle": "Remember That You Will Die"
           }
         }
       },
       "block_order": [
-        "4be95cf3-30fa-416c-a111-11a6c8cb236f",
+        "c86a85ad-c753-482e-84db-39a9fd7a4644",
+        "ec9d1280-a9df-4f5c-831e-69716a815a44",
+        "0c9f1423-7f99-4596-bd47-3c50b9029b6e",
+        "e774328a-528a-433e-acaf-d231a6d113ca",
         "8f7c12b2-ecb0-4932-8fe1-f7b31092b038",
-        "01ad7d25-3458-4818-a7ee-4bb9c97a68ac",
-        "e2076de2-ab26-4f92-9f68-ec388da9edb9",
-        "0c9f1423-7f99-4596-bd47-3c50b9029b6e"
+        "4be95cf3-30fa-416c-a111-11a6c8cb236f",
+        "e2076de2-ab26-4f92-9f68-ec388da9edb9"
       ],
       "settings": {
         "title": "Latest Releases"
@@ -208,8 +228,8 @@
         "featured-collections-3": {
           "type": "collection",
           "settings": {
-            "collection": "artist-circa-survive",
-            "title": "Circa Survive",
+            "collection": "polyphia",
+            "title": "Polyphia",
             "focal_point": "center center"
           }
         },
@@ -323,14 +343,14 @@
     "1642540727a003d2ee": {
       "type": "hero-video",
       "settings": {
-        "title": "Crown The Empire",
+        "title": "Polyphia",
         "title_size": 60,
-        "subheading": "Dancing with the Dead",
+        "subheading": "Ego Death feat Steve Vai",
         "link_text": "Watch Now",
-        "link": "https:\/\/www.youtube.com\/watch?v=6wkvOjxtieQ",
+        "link": "https:\/\/youtu.be\/1JNmz17gnMw",
         "color_accent": "#ffffff",
         "text_align": "vertical-bottom horizontal-left",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=6wkvOjxtieQ",
+        "video_url": "https:\/\/youtu.be\/1JNmz17gnMw",
         "overlay_opacity": 0,
         "section_height": "650px",
         "mobile_height": "300px"

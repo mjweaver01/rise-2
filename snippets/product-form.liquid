@@ -24,7 +24,8 @@
       endunless
     -%}
 {% render 'outlink-custom', product:product, o_showOutlink:1, o_hideCart:1 , o_classes: 'btn btn--full add-to-cart', o_style: '' %}
-<div class="o_original_{{ product.id }}">
+{% unless product.tags contains "on_auction" or product.tags contains "wk_end_auction" or product.tags contains "upcoming_auction" %}
+      <div class="o_original_{{ product.id }}">
     <button
       {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
       name="add"
@@ -43,7 +44,8 @@
   {%- if enable_dynamic_buttons -%}
     </div>
   {%- endif -%}
-
+{% endunless %}
+<div id="wk-auction" prod-id="{{ product.id }}" cust-id="{{ customer.id }}"></div>
   <div class="shopify-payment-terms product__policies">{{ form | payment_terms }}</div>
 
   <select name="id" data-product-select class="product-single__variants no-js">
